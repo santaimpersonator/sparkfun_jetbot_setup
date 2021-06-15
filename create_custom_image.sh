@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Created by SparkFun Electronics June 2021
 # Author: Wes Furuya
 #  
@@ -34,66 +33,73 @@
 #==================================================================================
 #==================================================================================
 
+# Clear Terminal
+# clear
+echo -e "\ne\[1;32mConfigure Custom Jetbot Image\e[0m"
+
+echo -e "e\[1;33m- Adding File Permissions\e[0m"
+chmod +x install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
+
 # Download Package Information
-echo -e "Download Package Information \e[0m"
+echo -e "e\[1;33m- Download Package Information\e[0m"
 sudo apt-get update
 
-# Enable All Ubuntu Packages
-echo -e "Enable All Packages \e[0m"
+# # Enable All Ubuntu Packages
+echo -e "e\[1;33m- Enable All Packages\e[0m"
 sudo apt-add-repository main
 sudo apt-add-repository universe
 sudo apt-add-repository multiverse
 sudo apt-add-repository restricted
 
-# Install htop, nano, and dkms
-echo -e "Install htop, nano, and dkms \e[0m"
+# # Install htop, nano, and dkms
+echo -e "e\[1;33m- - Install htop, nano, and dkms\e[0m"
 sudo apt-get install htop nano dkms
 
 
-# Install Edimax WiFi Driver:
-#==================================================================================
-echo -e "Install Edimax WiFi Driver \e[0m"
+# # Install Edimax WiFi Driver:
+# #==================================================================================
+echo -e "\n\ne\[0;37mInstall Edimax WiFi Driver\e[0m"
 ./install_edimax_driver.sh
 
-# Install Jetbot
-#==================================================================================
-# https://github.com/NVIDIA-AI-IOT/jetbot
-echo -e "Install Jetbot \e[0m"
+# # Install Jetbot
+# #==================================================================================
+# # https://github.com/NVIDIA-AI-IOT/jetbot
+echo -e "\n\ne\[0;37mInstall Jetbot\e[0m"
 ./install_jetbot.sh
 
 
-# Install Jetbot ROS
-#==================================================================================
-echo -e "Run Jetbot ROS Installation Script \e[0m"
-./install_jetbot_ros.sh
+# # Install Jetbot ROS
+# #==================================================================================
+# echo -e "\n\ne\[0;37mRun Jetbot ROS Installation Script\e[0m"
+# #./install_jetbot_ros.sh
 
-# - Install ROS Melodic
-# - Install Adafruit Libraries (ommitted # Already done in jetbot configuration script))
-# - Create catkin workspace
-# - Build jetson-inference
-# - Build ros_deep_learning
-# - Build jetbot_ros
-
-
-
-
-# Install AWS Greengrass
-#==================================================================================
-echo -e "Run AWS Greengrass Installation Script \e[0m"
-./install_aws_greengrass.sh
-
-
-
-# DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-# ${DIR}/create-sdcard-image-from-scratch.sh\
-
-# https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/flashing.html
-#  sudo ./flash.sh -S 58GiB jetson-nano-sd mmcblk0p1
+# # - Install ROS Melodic
+# # - Install Adafruit Libraries (ommitted # Already done in jetbot configuration script))
+# # - Create catkin workspace
+# # - Build jetson-inference
+# # - Build ros_deep_learning
+# # - Build jetbot_ros
 
 
 
 
-# Clear Terminal History/Buffer
-#==================================================================================
-# echo -e "Clear bash history \e[0m"
-# history -c; history -w; rm ~/.bash_history
+# # Install AWS Greengrass
+# #==================================================================================
+# echo -e "\n\ne\[0;37mRun AWS Greengrass Installation Script\e[0m"
+# #./install_aws_greengrass.sh
+
+
+
+# # DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+# # ${DIR}/create-sdcard-image-from-scratch.sh\
+
+# # https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/flashing.html
+# #  sudo ./flash.sh -S 58GiB jetson-nano-sd mmcblk0p1
+
+
+
+
+# # Clear Terminal History/Buffer
+# #==================================================================================
+# # echo -e "\n\ne\[0;37mClear Bash History\e[0m"
+# # history -c; history -w; rm ~/.bash_history

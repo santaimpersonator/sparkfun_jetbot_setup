@@ -37,11 +37,11 @@
 
 # Install Jetbot ROS: https://github.com/dusty-nv/jetbot_ros
 #==================================================================================
-echo -e "Install Jetbot ROS \e[0m"
+echo -e "e\[1;32mInstall Jetbot ROS\e[0m"
 
 # Install ROS Melodic
 #----------------------------------------------------------------------------------
-echo -e "Install Jetbot ROS Melodic \e[0m"
+echo -e "e\[1;33m- Install Jetbot ROS Melodic\e[0m"
 
 # enable all Ubuntu packages:
 sudo apt-add-repository universe
@@ -92,7 +92,7 @@ sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
 # Create catkin workspace
 #----------------------------------------------------------------------------------
 # Create a ROS Catkin workspace to contain our ROS packages:
-echo -e "Create a ROS Catkin workspace \e[0m"
+echo -e "e\[1;33m- Create a ROS Catkin Workspace\e[0m"
 
 
 # create the catkin workspace
@@ -121,7 +121,7 @@ echo $ROS_PACKAGE_PATH
 # Build jetson-inference
 #----------------------------------------------------------------------------------
 # Clone and build the jetson-inference repo:
-echo -e "Install and Build jetson-inference \e[0m"
+echo -e "e\[1;33m- Install and Build jetson-inference\e[0m"
 
 # git and cmake should be installed
 sudo apt-get install git cmake
@@ -146,7 +146,7 @@ sudo make install
 # Build ros_deep_learning
 #----------------------------------------------------------------------------------
 # Clone and build the ros_deep_learning repo:
-echo -e "Install and Build ros_deep_learning \e[0m"
+echo -e "e\[1;33m- Install and Build ros_deep_learning\e[0m"
 
 # install dependencies
 sudo apt-get install ros-melodic-vision-msgs ros-melodic-image-transport ros-melodic-image-publisher
@@ -168,7 +168,7 @@ rospack find ros_deep_learning
 # Build jetbot_ros
 #----------------------------------------------------------------------------------
 # Clone and build the jetbot_ros repo:
-echo -e "Install and Build jetbot_ros \e[0m"
+echo -e "e\[1;33m- Install and Build jetbot_ros\e[0m"
 
 # clone the repo
 cd ~/workspace/catkin_ws/src
