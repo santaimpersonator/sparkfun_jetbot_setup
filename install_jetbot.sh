@@ -45,7 +45,9 @@ cd
 git clone https://github.com/santaimpersonator/jetbot
 
 # Run configuration scripts
-cd scripts
+cd jetbot/scripts
+echo -e "- Clone Jetbot Repository \e[0m"
+# chmox +x create-sdcard-image-from-scratch.sh configure_jetson.sh
 
 # Run create-sdcard-image-from-scratch.sh script
 #----------------------------------------------------------------------------------
