@@ -44,8 +44,6 @@ echo -e "Install Jetbot ROS \e[0m"
 echo -e "Install Jetbot ROS Melodic \e[0m"
 
 # enable all Ubuntu packages:
-sudo apt-get update
-sudo apt-add-repository universe
 sudo apt-add-repository universe
 sudo apt-add-repository multiverse
 sudo apt-add-repository restricted
