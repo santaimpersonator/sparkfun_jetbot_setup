@@ -82,9 +82,5 @@ echo -e "- Run configure_jetson.sh script \e[0m \e[0m"
 ./configure_jetson.sh
 
 
-# Install SparkFun Qwiic Python Package
-# echo -e "Install SparkFun Qwiic Package \e[0m \e[0m"
-# pip3 install sparkfun-qwiic
-
 # Return to home directory
 cd
