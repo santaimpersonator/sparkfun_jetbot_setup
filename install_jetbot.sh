@@ -79,8 +79,25 @@ echo -e "e\[1;33m- Run create-sdcard-image-from-scratch.sh script\e[0m"
 # - Disable GUI to free up more RAM
 # - Disable ZRAM
 # - Default to Max-N power mode
-echo -e "e\[1;33m- Run configure_jetson.sh script \e[0m"
+echo -e "\e[1;33m- Run configure_jetson.sh script\e[0m"
 ./configure_jetson.sh
+
+
+# Download Models: https://github.com/NVIDIA-AI-IOT/jetbot/wiki/Examples
+#==================================================================================
+echo -e "\e[1;32mDownload Models\e[0m"
+
+# Download Pre-Trained Model for Collision Avoidance Example
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m- Collision Avoidance Model\e[0m"
+cd ~/Notebooks/collision_avoidance
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW" -O best_model.pth && rm -rf /tmp/cookies.txt
+
+# Download Object Detection Model for Object Following Example
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m- Object Detection Model\e[0m"
+cd ~/Notebooks/object_following
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH" -O ssd_mobilenet_v2_coco.engine && rm -rf /tmp/cookies.txt
 
 
 # Return to home directory
