@@ -59,4 +59,4 @@ sudo ./check_ggc_dependencies | more
 sudo adduser --system ggc_user
 sudo addgroup --system ggc_group
 wget https://d1onfpft10uf5o.cloudfront.net/greengrass-core/downloads/1.9.2/greengrass-linux-aarch64-1.9.2.tar.gz
-tar -xvf greengrass-linux-aarch64-1.9.2.tar.gz -C /
+sudo tar -xvf greengrass-linux-aarch64-1.9.2.tar.gz -C /
