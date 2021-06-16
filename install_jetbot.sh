@@ -42,7 +42,8 @@ echo -e "e\[1;32mInstall Jetbot\e[0m"
 # Clone Jetbot Repository
 echo -e "e\[1;33m- Clone Jetbot Repository\e[0m"
 cd
-git clone https://github.com/santaimpersonator/jetbot
+git clone https://github.com/NVIDIA-AI-IOT/jetbot
+# git clone https://github.com/santaimpersonator/jetbot
 
 # Run configuration scripts
 cd jetbot/scripts
