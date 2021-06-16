@@ -37,17 +37,17 @@
 
 # Install Jetbot: https://github.com/NVIDIA-AI-IOT/jetbot
 #==================================================================================
-echo -e "e\[1;32mInstall Jetbot\e[0m"
+echo -e "\e[1;32mInstall Jetbot\e[0m"
 
 # Clone Jetbot Repository
-echo -e "e\[1;33m- Clone Jetbot Repository\e[0m"
+echo -e "\e[1;33m- Clone Jetbot Repository\e[0m"
 cd
 git clone https://github.com/NVIDIA-AI-IOT/jetbot
 # git clone https://github.com/santaimpersonator/jetbot
 
 # Run configuration scripts
 cd jetbot/scripts
-echo -e "e\[1;33m- Clone Jetbot Repository\e[0m"
+echo -e "\e[1;33m- Clone Jetbot Repository\e[0m"
 # chmox +x create-sdcard-image-from-scratch.sh configure_jetson.sh
 
 # Run create-sdcard-image-from-scratch.sh script
@@ -71,7 +71,7 @@ echo -e "e\[1;33m- Clone Jetbot Repository\e[0m"
 # - Install zmq dependency (should actually already be resolved by jupyter)
 # - Optimize the system configuration to create more headroom
 # - Copy JetBot notebooks to home directory
-echo -e "e\[1;33m- Run create-sdcard-image-from-scratch.sh script\e[0m"
+echo -e "\e[1;33m- Run create-sdcard-image-from-scratch.sh script\e[0m"
 ./create-sdcard-image-from-scratch.sh
 
 # Run configure_jetson.sh script

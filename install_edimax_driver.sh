@@ -37,21 +37,21 @@
 
 # Install Edimax WiFi Driver: https://github.com/lwfinger/rtl8723bu
 #==================================================================================
-echo -e "e\[1;32mInstall Edimax WiFi Driver\e[0m"
+echo -e "\e[1;32mInstall Edimax WiFi Driver\e[0m"
 
 # Get the source first:
-echo -e "e\[1;33m- Clone rtl8723bu Repository\e[0m"
+echo -e "\e[1;33m- Clone rtl8723bu Repository\e[0m"
 cd
 git clone https://github.com/lwfinger/rtl8723bu.git
 cd rtl8723bu
 
 # Disable Concurrent Mode:
 # https://github.com/lwfinger/rtl8723bu#concurrent-or-non-concurrent-mode
-echo -e "e\[1;33m- Disable Concurrent Mode\e[0m"
+echo -e "\e[1;33m- Disable Concurrent Mode\e[0m"
 sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/# EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/' Makefile
 
 # Automatic install using DKMS:
-echo -e "e\[1;33m- DKMS Install \e[0m"
+echo -e "\e[1;33m- DKMS Install \e[0m"
 source dkms.conf
 sudo mkdir /usr/src/$PACKAGE_NAME-$PACKAGE_VERSION
 sudo cp -r core hal include os_dep platform dkms.conf Makefile rtl8723b_fw.bin /usr/src/$PACKAGE_NAME-$PACKAGE_VERSION

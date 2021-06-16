@@ -38,7 +38,7 @@
 # Install AWS Greengrass (v1)
 # https://docs.aws.amazon.com/greengrass/latest/developerguide/
 #==================================================================================
-echo -e "e\[1;33mInstall AWS Greengrass\e[0m"
+echo -e "\e[1;33mInstall AWS Greengrass\e[0m"
 
 # *To transition to version 2, check out the following resource:
 # https://docs.aws.amazon.com/greengrass/v2/developerguide/move-from-v1.html
