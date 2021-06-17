@@ -100,7 +100,11 @@ echo -e "\n\n\e[0;37mRun AWS Greengrass Installation Script\e[0m"
 #  sudo ./flash.sh -S 58GiB jetson-nano-sd mmcblk0p1
 
 
-
+# # Resize partition
+# # resize2fs -p '<drive>' <size>
+# e2fsck -f -y -v -C 0'/dev/mmcblk0p1'
+# # resize2fs -p '/dev/mmcblk0p1' 19968000K
+# resize2fs -p '/dev/mmcblk0p1' 20000000K
 
 # Clear Terminal History/Buffer
 #==================================================================================
