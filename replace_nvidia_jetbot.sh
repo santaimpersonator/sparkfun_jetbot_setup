@@ -62,13 +62,20 @@ pip3 uninstall jetbot
 # Stop and Delete jetbot Services
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Remove jetbot Services\e[0m"
+
+# Stop and Disable Services
 sudo systemctl stop jetbot_stats
+sudo systemctl disable jetbot_stats
 sudo systemctl stop jetbot_jupyter
+sudo systemctl disable jetbot_jupyter
 
-cd /etc/systemd/system/
-sudo rm -rf jetbot_stats.service 
-sudo rm -rf jetbot_jupyter.service
+# Remove Files
+sudo rm -rf /etc/systemd/system/jetbot_stats.service 
+sudo rm -rf /etc/systemd/system/jetbot_jupyter.service
 
+# Reload and Reset List
+systemctl daemon-reload
+systemctl reset-failed
 
 
 # Replace Jetbot Installation
