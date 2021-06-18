@@ -39,13 +39,17 @@ sudo apt-get install python3-pip
 
 # Replace Nvidia Jetbot Installation
 #==================================================================================
-echo -e "\e[1;32mReplace Jetbot Installation\e[0m"
-
+echo -e "\e[0;37mReplace Jetbot Installation\e[0m"
 
 
 # Remove Jetbot Installation
 #==================================================================================
-echo -e "\e[1;33m- Remove Jetbot Installation\e[0m"
+echo -e "\e[1;32m- Remove Jetbot Installation\e[0m"
+
+# Disable Docker Container
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Disable Docker Container\e[0m"
+cd && ./jetbot/docker/disable.sh
 
 # Delete jetbot Folder
 #----------------------------------------------------------------------------------
@@ -108,7 +112,7 @@ sudo mv jetbot_jupyter.service /etc/systemd/system/jetbot_jupyter.service
 sudo systemctl enable jetbot_jupyter
 sudo systemctl start jetbot_jupyter
 
-# Copy JetBot notebooks to home directory
+# Copy JetBot notebooks to home Directory
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Copy New JetBot Notebooks\e[0m"
 cp -r ~/jetbot/notebooks ~/Notebooks
@@ -129,3 +133,18 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 echo -e "\e[1;33m- Object Detection Model\e[0m"
 cd ~/Notebooks/object_following
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH" -O ssd_mobilenet_v2_coco.engine && rm -rf /tmp/cookies.txt
+
+
+# Rebuild Docker Containers
+#==================================================================================
+echo -e "\e[1;32mDownload Models\e[0m"
+
+# Build New Docker Container
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Build New Docker Container\e[0m"
+cd && ./jetbot/docker/build.sh
+
+# Install New Docker Container
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Install New Docker Container\e[0m"
+cd && ./jetbot/docker/enable.sh
