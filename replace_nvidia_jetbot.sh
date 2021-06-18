@@ -34,7 +34,12 @@
 #==================================================================================
 #==================================================================================
 
+# Install pip3
 sudo apt-get install python3-pip
+
+# Remove Carriage Returns and Add Permissions
+sed -i 's/\r$//' nvresizefs.sh
+chmod +x nvresizefs.sh
 
 
 # Replace Nvidia Jetbot Installation
