@@ -37,7 +37,7 @@
 # clear
 echo -e "\n\e[1;32mConfigure Custom Jetbot Image\e[0m"
 
-#Remove carriage returns
+# Remove carriage returns
 sed -i 's/\r$//' install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
 
 echo -e "\e[1;33m- Adding File Permissions\e[0m"
