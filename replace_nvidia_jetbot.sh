@@ -54,7 +54,7 @@ echo -e "\e[1;32m- Remove Jetbot Installation\e[0m"
 # Disable Docker Container
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Disable Docker Container\e[0m"
-cd && ./jetbot/docker/disable.sh
+cd ~/jetbot/docker && ./disable.sh
 
 # Delete jetbot Folder
 #----------------------------------------------------------------------------------
@@ -147,9 +147,9 @@ echo -e "\e[1;32mDownload Models\e[0m"
 # Build New Docker Container
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Build New Docker Container\e[0m"
-cd && ./jetbot/docker/build.sh
+cd ~/jetbot/docker && ./build.sh
 
 # Install New Docker Container
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Install New Docker Container\e[0m"
-cd && ./jetbot/docker/enable.sh
+cd ~/jetbot/docker && ./enable.sh
