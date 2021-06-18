@@ -34,6 +34,8 @@
 #==================================================================================
 #==================================================================================
 
+sudo apt-get install python3-pip
+
 
 # Replace Nvidia Jetbot Installation
 #==================================================================================
@@ -91,8 +93,7 @@ cd && git clone https://github.com/santaimpersonator/jetbot.git
 # Install New jetbot Python Module
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Install New jetbot Python Module\e[0m"
-cd ~/jetbot
-sudo python3 setup.py install 
+cd ~/jetbot && sudo python3 setup.py install 
 
 # Install New jetbot Services
 #----------------------------------------------------------------------------------
