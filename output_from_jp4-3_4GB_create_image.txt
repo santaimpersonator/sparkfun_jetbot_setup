@@ -1,0 +1,2721 @@
+
+
+System Configuration
+
+
+
+
+
+
+
+           lqqqqu License For Customer Use of NVIDIA Software tqqqqqk
+           x                                                        x
+           x Welcome to Jetson Initial Configuration                x
+           x                                                        x
+           x                         <Ok>                           x
+           x                                                        x
+           mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+  lqqqqqqqqqqqqqu License For Customer Use of NVIDIA Software tqqqqqqqqqqqqqqk
+  x                                                                          x
+  x ======================================================================
+  x
+  x License For Customer Use of NVIDIA Software
+  x ======================================================================
+  x
+  x IMPORTANT NOTICE -- READ CAREFULLY: This License For Customer Use of
+  x NVIDIA Software ("LICENSE") is the agreement which governs use of the
+  x software of NVIDIA Corporation and its subsidiaries ("NVIDIA")
+  x downloadable herefrom, including computer software and associated
+  x printed materials ("SOFTWARE").  By downloading, installing, copying,
+  x or otherwise using the SOFTWARE, you agree to be bound by the terms of
+  x this LICENSE.  If you do not agree to the terms of this LICENSE, do not
+  x download the SOFTWARE.
+  x
+  x RECITALS
+  x
+  x                                  <Ok>
+  x                                                                          x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+   lqqqqqqqqqqqqqqqqqqqqqqqqqu Select a language tqqqqqqqqqqqqqqqqqqqqqqqqqqk
+   x Choose the language to be used for the installation process. The       x
+   x selected language will also be the default language for the installed  x
+   x system.                                                                x
+   x                                                                        x
+   x Language:                                                              x
+   x                                                                        x
+   x              Arabic - ????                                 ?           x
+   x              Asturian - Asturianu                          a           x
+   x              Basque - Euskara                              `           x
+   x              Belarusian - ??????????                       a           x
+   x              Bosnian - Bosanski                            a           x
+   x              Bulgarian - ?????????                         a           x
+   x              Danish - Dansk                                a           x
+   x              Dutch - Nederlands                            a           x
+   x              English - English                             ?           x
+   x                                                                        x
+   x                                                                        x
+   x                   <Ok>                       <Cancel>                  x
+   x                                                                        x
+   mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+   lqqqqqqqqqqqqqqqqqqqqqqqqu Select your location tqqqqqqqqqqqqqqqqqqqqqqqqk
+   x The selected location will be used to set your time zone and also for  x
+   x example to help select the system locale. Normally this should be the  x
+   x country where you live.                                                x
+   x                                                                        x
+   x This is a shortlist of locations based on the language you selected.   x
+   x Choose "other" if your location is not listed.                         x
+   x                                                                        x
+   x Country, territory or area:                                            x
+   x                                                                        x
+   x                         Philippines             ?                      x
+   x                         Seychelles              a                      x
+   x                         Singapore               a                      x
+   x                         South Africa            `                      x
+   x                         United Kingdom          a                      x
+   x                         United States           ?                      x
+   x                                                                        x
+   x                                                                        x
+   x                   <Ok>                       <Cancel>                  x
+   x                                                                        x
+   mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+  lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Keyboard layout tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+  x The layout of keyboards varies per country, with some countries having  x
+  x multiple common layouts. Please select the country of origin for the    x
+  x keyboard of this computer.                                              x
+  x                                                                         x
+  x Country of origin for the keyboard:                                     x
+  x                                                                         x
+  x              Dutch                                         ?            x
+  x              Dzongkha                                      a            x
+  x              English (Australian)                          `            x
+  x              English (Cameroon)                            a            x
+  x              English (Ghana)                               a            x
+  x              English (Nigeria)                             a            x
+  x              English (South Africa)                        a            x
+  x              English (UK)                                  a            x
+  x              English (US)                                  ?            x
+  x                                                                         x
+  x                                                                         x
+  x                   <Ok>                       <Cancel>                   x
+  x                                                                         x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu Keyboard layout tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+x Please select the layout matching the keyboard for this machine.             x
+x                                                                              x
+x Keyboard layout:                                                             x
+x                                                                              x
+x    English (US)                                                            ? x
+x    English (US) - Cherokee                                                 ` x
+x    English (US) - English (classic Dvorak)                                 a x
+x    English (US) - English (Colemak)                                        a x
+x    English (US) - English (Dvorak)                                         a x
+x    English (US) - English (Dvorak, alt. intl.)                             a x
+x    English (US) - English (Dvorak, intl., with dead keys)                  a x
+x    English (US) - English (Dvorak, left-handed)                            a x
+x    English (US) - English (Dvorak, right-handed)                           a x
+x    English (US) - English (intl., with AltGr dead keys)                    a x
+x    English (US) - English (Macintosh)                                      ? x
+x                                                                              x
+x                                                                              x
+x                     <Ok>                         <Cancel>                    x
+x                                                                              x
+mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+  lqqqqqqqqqqqqqqqqqqqqqqqqqqqqu Where are you? tqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+  x If the desired time zone is not listed, then please go back to the step  x
+  x "Choose language" and select a country that uses the desired time zone   x
+  x (the country where you live or are located).                             x
+  x                                                                          x
+  x Select your time zone:                                                   x
+  x                                                                          x
+  x                              Eastern                                     x
+  x                              Central                                     x
+  x                              Mountain                                    x
+  x                              Pacific                                     x
+  x                              Alaska                                      x
+  x                              Hawaii                                      x
+  x                              Arizona                                     x
+  x                              East Indiana                                x
+  x                              Samoa                                       x
+  x                                                                          x
+  x                                                                          x
+  x                   <Ok>                       <Cancel>                    x
+  x                                                                          x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+
+System Configuration
+
+   lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Where are you? tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+   x                                                                        x
+   x System clocks are generally set to Coordinated Universal Time (UTC).   x
+   x The operating system uses your time zone to convert system time into   x
+   x local time. This is recommended unless you also use another operating  x
+   x system that expects the clock to be set to local time.                 x
+   x                                                                        x
+   x Is the system clock set to UTC?                                        x
+   x                                                                        x
+   x                   <Yes>                      <No>                      x
+   x                                                                        x
+   mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+  lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu Who are you? tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+  x A user account will be created for you to use instead of the root        x
+  x account for non-administrative activities.                               x
+  x                                                                          x
+  x Please enter the real name of this user. This information will be used   x
+  x for instance as default origin for emails sent by this user as well as   x
+  x any program which displays or uses the user's real name. Your full name  x
+  x is a reasonable choice.                                                  x
+  x                                                                          x
+  x Full name for the new user:                                              x
+  x                                                                          x
+  x jetbot__________________________________________________________________ x
+  x                                                                          x
+  x                   <Ok>                       <Cancel>                    x
+  x                                                                          x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+  lqqqqqqqqqqqqqqqqqqqqqqqqqqqqu Who are you? tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+  x Select a username for the new account. Your first name is a reasonable  x
+  x choice. The username should start with a lower-case letter, which can   x
+  x be followed by any combination of numbers and more lower-case letters.  x
+  x                                                                         x
+  x Username for your account:                                              x
+  x                                                                         x
+  x jetbot_________________________________________________________________ x
+  x                                                                         x
+  x                   <Ok>                       <Cancel>                   x
+  x                                                                         x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+      lqqqqqqqqqqqqqqqqqqqqqqqqu Who are you? tqqqqqqqqqqqqqqqqqqqqqqqqqk
+      x A good password will contain a mixture of letters, numbers and  x
+      x punctuation and should be changed at regular intervals.         x
+      x                                                                 x
+      x Choose a password for the new user:                             x
+      x                                                                 x
+      x ******_________________________________________________________ x
+      x                                                                 x
+      x                <Ok>                    <Cancel>                 x
+      x                                                                 x
+      mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+   lqqqqqqqqqqqqqqqqqqqqqqqqqqqqu Who are you? tqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+   x Please enter the same user password again to verify you have typed it  x
+   x correctly.                                                             x
+   x                                                                        x
+   x Re-enter password to verify:                                           x
+   x                                                                        x
+   x ******________________________________________________________________ x
+   x                                                                        x
+   x                   <Ok>                       <Cancel>                  x
+   x                                                                        x
+   mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+System Configuration
+
+   lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Who are you? tqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+   x                                                                       x
+   x You entered a password that consists of less than eight characters,   x
+   x which is considered too weak. You should choose a stronger password.  x
+   x                                                                       x
+   x Use weak password?                                                    x
+   x                                                                       x
+   x                   <Yes>                      <No>                     x
+   x                                                                       x
+   mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+  lqqqqqqqqqqqqqqqqqqqqqqqqqu APP Partition Size tqqqqqqqqqqqqqqqqqqqqqqqqqqk
+  x                                                                         x
+  x                                                                         x
+  x Please enter desired size of APP partition in Megabytes (MB). Default   x
+  x value in input field is the maximum size that can be accepted. Enter 0  x
+  x or leave blank to use the maximum size value.                           x
+  x                                                                         x
+  x 59377__________________________________________________________________ x
+  x                                                                         x
+  x                   <Ok>                       <Cancel>                   x
+  x                                                                         x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+  lqqqqqqqqqqqqqqqqqqqqqqqqu Network configuration tqqqqqqqqqqqqqqqqqqqqqqqqqk
+  x Your system has multiple network interfaces. Choose the one to use as    x
+  x the primary network interface during the installation. If possible, the  x
+  x first connected network interface found has been selected.               x
+  x                                                                          x
+  x Primary network interface:                                               x
+  x                                                                          x
+  x                        dummy0: Unknown interface                         x
+  x                        eth0: Ethernet                                    x
+  x                        l4tbr0: Unknown interface                         x
+  x                        rndis0: Unknown interface                         x
+  x                        usb0: USB net                                     x
+  x                                                                          x
+  x                                                                          x
+  x                   <Ok>                       <Cancel>                    x
+  x                                                                          x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqu Detecting link on eth0; please wait... tqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                    91%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqu Waiting for link-local address... tqqqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                   100%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqu Attempting IPv6 autoconfiguration... tqqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                   100%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqu Configuring the network with DHCP tqqqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                     0%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqu Configuring the network with DHCP tqqqqqqqqqqqqqqqqqqqk
+ x Network autoconfiguration has succeeded                                   x
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                   100%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+
+  lqqqqqqqqqqqqqqqqqqqqqqqqu Network configuration tqqqqqqqqqqqqqqqqqqqqqqqqqk
+  x Please enter the hostname for this system.                               x
+  x                                                                          x
+  x The hostname is a single word that identifies your system to the         x
+  x network. If you don't know what your hostname should be, consult your    x
+  x network administrator. If you are setting up your own home network, you  x
+  x can make something up here.                                              x
+  x                                                                          x
+  x Hostname:                                                                x
+  x                                                                          x
+  x jetbot__________________________________________________________________ x
+  x                                                                          x
+  x                   <Ok>                       <Cancel>                    x
+  x                                                                          x
+  mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Installing system tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                     0%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Installing system tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ x Configuring hardware...                                                   x
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                    50%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqu Detecting hardware, please wait... tqqqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                     0%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqu Detecting hardware, please wait... tqqqqqqqqqqqqqqqqqqqk
+ x Detecting hardware, please wait...                                        x
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                   100%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Installing system tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                    50%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Installing system tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ x Copying installation logs...                                              x
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                   100%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Installing system tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                     0%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+System Configuration
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqu Installing system tqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+ x Finding the distribution to copy...                                       x
+ x                                                                           x
+ x                                                                           x
+ x                                                                           x
+ x                                     0%                                    x
+ x                                                                           x
+ mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+
+Ubuntu 18.04.3 LTS jetbot ttyGS0
+
+jetbot login:
+Ubuntu 18.04.3 LTS jetbot ttyGS0
+
+jetbot login: jetbot
+Password:
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.9.140-tegra aarch64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+
+528 packages can be updated.
+421 updates are security updates.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+setupt@jetbot:~$ git clone https://github.com/santaimpersonator/sparkfun_jetbot_s
+Cloning into 'sparkfun_jetbot_setup'...
+Username for 'https://github.com': santaimpersonator
+Password for 'https://santaimpersonator@github.com':
+remote: Enumerating objects: 53, done.
+remote: Counting objects: 100% (53/53), done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 53 (delta 34), reused 38 (delta 19), pack-reused 0
+Unpacking objects: 100% (53/53), done.
+jetbot@jetbot:~$ ls
+Desktop  examples.desktop  sparkfun_jetbot_setup
+jetbot@jetbot:~$ cd sparkfun_jetbot_setup/
+jetbot@jetbot:~/sparkfun_jetbot_setup$ ls
+create_custom_image.sh     install_edimax_driver.sh  install_jetbot.sh
+install_aws_greengrass.sh  install_jetbot_ros.sh
+jetbot@jetbot:~/sparkfun_jetbot_setup$ chmod +x create_custom_image.sh
+jetbot@jetbot:~/sparkfun_jetbot_setup$ ./create_custom_image.sh
+
+Configure Custom Jetbot Image
+- Adding File Permissions
+- Download Package Information
+[sudo] password for jetbot:
+Get:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Ign:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Get:2 file:/var/visionworks-repo  InRelease
+Ign:2 file:/var/visionworks-repo  InRelease
+Get:3 file:/var/visionworks-sfm-repo  InRelease
+Ign:3 file:/var/visionworks-sfm-repo  InRelease
+Get:4 file:/var/visionworks-tracking-repo  InRelease
+Ign:4 file:/var/visionworks-tracking-repo  InRelease
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Hit:9 https://repo.download.nvidia.com/jetson/common r32 InRelease
+Get:10 https://repo.download.nvidia.com/jetson/t210 r32 InRelease [2,555 B]
+Hit:12 http://ports.ubuntu.com/ubuntu-ports bionic InRelease
+Hit:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease
+Hit:14 http://ports.ubuntu.com/ubuntu-ports bionic-backports InRelease
+Hit:15 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease
+Get:19 https://repo.download.nvidia.com/jetson/t210 r32/main arm64 Packages [8,084 B]
+Fetched 10.6 kB in 2s (4,597 B/s)
+Reading package lists... Done
+- Enable All Packages
+'main' distribution component is already enabled for all sources.
+'universe' distribution component is already enabled for all sources.
+'multiverse' distribution component is already enabled for all sources.
+'restricted' distribution component is already enabled for all sources.
+- - Install htop, nano, and dkms
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  linux-headers-4.15.0-20 linux-headers-4.15.0-20-generic
+  linux-headers-generic
+Suggested packages:
+  menu lsof strace spell
+The following NEW packages will be installed:
+  dkms htop linux-headers-4.15.0-20 linux-headers-4.15.0-20-generic
+  linux-headers-generic nano
+0 upgraded, 6 newly installed, 0 to remove and 1 not upgraded.
+Need to get 12.1 MB of archives.
+After this operation, 86.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 nano arm64 2.9.3-2 [218 kB]
+Get:2 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 dkms all 2.3-3ubuntu9 [68.2 kB]
+Get:3 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 htop arm64 2.1.0-3 [69.4 kB]
+Get:4 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 linux-headers-4.15.0-20 all 4.15.0-20.21 [11.0 MB]
+Get:5 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 linux-headers-4.15.0-20-generic arm64 4.15.0-20.21 [761 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 linux-headers-generic arm64 4.15.0.20.23 [2,636 B]
+Fetched 12.1 MB in 4s (2,958 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package nano.
+(Reading database ... 139697 files and directories currently installed.)
+Preparing to unpack .../0-nano_2.9.3-2_arm64.deb ...
+Unpacking nano (2.9.3-2) ...
+Selecting previously unselected package dkms.
+Preparing to unpack .../1-dkms_2.3-3ubuntu9_all.deb ...
+Unpacking dkms (2.3-3ubuntu9) ...
+Selecting previously unselected package htop.
+Preparing to unpack .../2-htop_2.1.0-3_arm64.deb ...
+Unpacking htop (2.1.0-3) ...
+Selecting previously unselected package linux-headers-4.15.0-20.
+Preparing to unpack .../3-linux-headers-4.15.0-20_4.15.0-20.21_all.deb ...
+Unpacking linux-headers-4.15.0-20 (4.15.0-20.21) ...
+Selecting previously unselected package linux-headers-4.15.0-20-generic.
+Preparing to unpack .../4-linux-headers-4.15.0-20-generic_4.15.0-20.21_arm64.deb ...
+Unpacking linux-headers-4.15.0-20-generic (4.15.0-20.21) ...
+Selecting previously unselected package linux-headers-generic.
+Preparing to unpack .../5-linux-headers-generic_4.15.0.20.23_arm64.deb ...
+Unpacking linux-headers-generic (4.15.0.20.23) ...
+Setting up nano (2.9.3-2) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+Setting up dkms (2.3-3ubuntu9) ...
+Setting up linux-headers-4.15.0-20 (4.15.0-20.21) ...
+Setting up linux-headers-4.15.0-20-generic (4.15.0-20.21) ...
+Setting up htop (2.1.0-3) ...
+Setting up linux-headers-generic (4.15.0.20.23) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for bamfdaemon (0.5.3+18.04.20180207.2-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+
+
+Install Edimax WiFi Driver
+Install Edimax WiFi Driver
+- Clone rtl8723bu Repository
+Cloning into 'rtl8723bu'...
+remote: Enumerating objects: 2601, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 2601 (delta 5), reused 9 (delta 3), pack-reused 2583
+Receiving objects: 100% (2601/2601), 7.51 MiB | 3.99 MiB/s, done.
+Resolving deltas: 100% (2073/2073), done.
+- Disable Concurrent Mode
+- DKMS Install
+
+Creating symlink /var/lib/dkms/rtl8723bu/4.3.6.11_12942.20141204_BTCOEX20140507-4E40/source ->
+                 /usr/src/rtl8723bu-4.3.6.11_12942.20141204_BTCOEX20140507-4E40
+
+DKMS: add completed.
+
+Kernel preparation unnecessary for this kernel.  Skipping...
+
+Building module:
+cleaning build area...
+make -j4 KERNELRELEASE=4.9.140-tegra -C /lib/modules/4.9.140-tegra/build M=/var/lib/dkms/rtl8723bu/4.3.6.11_12942.20141204_BTCOEX20140507-4E40/build...................
+cleaning build area...
+
+DKMS: build completed.
+
+rtl8723bu.ko:
+Running module version sanity check.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/4.9.140-tegra/updates/dkms/
+
+depmod...
+
+DKMS: install completed.
+
+
+Install Jetbot
+Install Jetbot
+- Clone Jetbot Repository
+Cloning into 'jetbot'...
+remote: Enumerating objects: 2765, done.
+remote: Counting objects: 100% (165/165), done.
+remote: Compressing objects: 100% (85/85), done.
+remote: Total 2765 (delta 101), reused 127 (delta 74), pack-reused 2600
+Receiving objects: 100% (2765/2765), 77.84 MiB | 2.25 MiB/s, done.
+Resolving deltas: 100% (1616/1616), done.
+Checking out files: 100% (241/241), done.
+- Clone Jetbot Repository
+- Run create-sdcard-image-from-scratch.sh script
+Wed Jun 16 12:10:52 MDT 2021
+ Enable i2c permissions
+Setting up swapspace version 1, size = 4 GiB (4294963200 bytes)
+no label, UUID=8d87bdfc-70ca-437a-b289-8e37b8224110
+ Install pip and some python dependencies
+Get:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Ign:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Get:2 file:/var/visionworks-repo  InRelease
+Ign:2 file:/var/visionworks-repo  InRelease
+Get:3 file:/var/visionworks-sfm-repo  InRelease
+Ign:3 file:/var/visionworks-sfm-repo  InRelease
+Get:4 file:/var/visionworks-tracking-repo  InRelease
+Ign:4 file:/var/visionworks-tracking-repo  InRelease
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Hit:9 https://repo.download.nvidia.com/jetson/common r32 InRelease
+Hit:10 https://repo.download.nvidia.com/jetson/t210 r32 InRelease
+Hit:12 http://ports.ubuntu.com/ubuntu-ports bionic InRelease
+Hit:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease
+Hit:14 http://ports.ubuntu.com/ubuntu-ports bionic-backports InRelease
+Hit:16 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  python-pip-whl python3-olefile python3-setuptools python3-wheel
+Suggested packages:
+  python-pil-doc python3-pil-dbg python-setuptools-doc
+Recommended packages:
+  python3-dev
+The following NEW packages will be installed:
+  python-pip-whl python3-olefile python3-pil python3-pip python3-setuptools
+  python3-wheel
+0 upgraded, 6 newly installed, 0 to remove and 1 not upgraded.
+Need to get 2,112 kB of archives.
+After this operation, 5,190 kB of additional disk space will be used.
+Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/universe arm64 python-pip-whl all 9.0.1-2 [1,379 kB]
+Get:2 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 python3-olefile all 0.45.1-1 [33.3 kB]
+Get:3 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 python3-pil arm64 5.1.0-1 [301 kB]
+Get:4 http://ports.ubuntu.com/ubuntu-ports bionic/universe arm64 python3-pip all 9.0.1-2 [114 kB]
+Get:5 http://ports.ubuntu.com/ubuntu-ports bionic/main arm64 python3-setuptools all 39.0.1-2 [248 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports bionic/universe arm64 python3-wheel all 0.30.0-0.2 [36.5 kB]
+Fetched 2,112 kB in 1s (3,879 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package python-pip-whl.
+(Reading database ... 169150 files and directories currently installed.)
+Preparing to unpack .../0-python-pip-whl_9.0.1-2_all.deb ...
+Unpacking python-pip-whl (9.0.1-2) ...
+Selecting previously unselected package python3-olefile.
+Preparing to unpack .../1-python3-olefile_0.45.1-1_all.deb ...
+Unpacking python3-olefile (0.45.1-1) ...
+Selecting previously unselected package python3-pil:arm64.
+Preparing to unpack .../2-python3-pil_5.1.0-1_arm64.deb ...
+Unpacking python3-pil:arm64 (5.1.0-1) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../3-python3-pip_9.0.1-2_all.deb ...
+Unpacking python3-pip (9.0.1-2) ...
+Selecting previously unselected package python3-setuptools.
+Preparing to unpack .../4-python3-setuptools_39.0.1-2_all.deb ...
+Unpacking python3-setuptools (39.0.1-2) ...
+Selecting previously unselected package python3-wheel.
+Preparing to unpack .../5-python3-wheel_0.30.0-0.2_all.deb ...
+Unpacking python3-wheel (0.30.0-0.2) ...
+Setting up python-pip-whl (9.0.1-2) ...
+Setting up python3-pil:arm64 (5.1.0-1) ...
+Setting up python3-olefile (0.45.1-1) ...
+Setting up python3-wheel (0.30.0-0.2) ...
+Setting up python3-pip (9.0.1-2) ...
+Setting up python3-setuptools (39.0.1-2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Collecting Cython
+  Downloading https://files.pythonhosted.org/packages/f6/e3/293d7d18a64dde5e60f809c5c3354ee812af713b1679c74708f88986a6b6/Cython-0.29.23-py2.py3-none-any.whl (978kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 983kB 531kB/s
+Installing collected packages: Cython
+Successfully installed Cython-0.29.23
+Collecting numpy
+  Downloading https://files.pythonhosted.org/packages/51/60/3f0fe5b7675a461d96b9d6729beecd3532565743278a9c3fe6dd09697fa7/numpy-1.19.5.zip (7.3MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 7.3MB 73kB/s
+Building wheels for collected packages: numpy
+  Running setup.py bdist_wheel for numpy ... error
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-8d_d2f69/numpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/tmpxuhpb1s9pip-wheel- --python-tag cp36:
+  Running from numpy source directory.
+  Cythonizing sources
+  Processing numpy/random/_bounded_integers.pxd.in
+  Processing numpy/random/bit_generator.pyx
+  Processing numpy/random/_bounded_integers.pyx.in
+  Processing numpy/random/_pcg64.pyx
+  Processing numpy/random/mtrand.pyx
+  Processing numpy/random/_sfc64.pyx
+  Processing numpy/random/_common.pyx
+  Processing numpy/random/_generator.pyx
+  Processing numpy/random/_mt19937.pyx
+  Processing numpy/random/_philox.pyx
+  blas_opt_info:
+  blas_mkl_info:
+  customize UnixCCompiler
+    libraries mkl_rt not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  blis_info:
+    libraries blis not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  openblas_info:
+    libraries openblas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  atlas_3_10_blas_threads_info:
+  Setting PTATLAS=ATLAS
+    libraries tatlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  atlas_3_10_blas_info:
+    libraries satlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  atlas_blas_threads_info:
+  Setting PTATLAS=ATLAS
+    libraries ptf77blas,ptcblas,atlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  atlas_blas_info:
+    libraries f77blas,cblas,atlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  accelerate_info:
+    NOT AVAILABLE
+
+  /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1914: UserWarning:
+      Optimized (vendor) Blas libraries are not found.
+      Falls back to netlib Blas library which has worse performance.
+      A better performance should be easily gained by switching
+      Blas library.
+    if self._calc_info(blas):
+  blas_info:
+    libraries blas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1914: UserWarning:
+      Blas (http://www.netlib.org/blas/) libraries not found.
+      Directories to search for the libraries can be specified in the
+      numpy/distutils/site.cfg file (section [blas]) or by setting
+      the BLAS environment variable.
+    if self._calc_info(blas):
+  blas_src_info:
+    NOT AVAILABLE
+
+  /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1914: UserWarning:
+      Blas (http://www.netlib.org/blas/) sources not found.
+      Directories to search for the sources can be specified in the
+      numpy/distutils/site.cfg file (section [blas_src]) or by setting
+      the BLAS_SRC environment variable.
+    if self._calc_info(blas):
+    NOT AVAILABLE
+
+  non-existing path in 'numpy/distutils': 'site.cfg'
+  lapack_opt_info:
+  lapack_mkl_info:
+    libraries mkl_rt not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  openblas_lapack_info:
+    libraries openblas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  openblas_clapack_info:
+    libraries openblas,lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  flame_info:
+    libraries flame not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  atlas_3_10_threads_info:
+  Setting PTATLAS=ATLAS
+    libraries lapack_atlas not found in /usr/local/lib
+    libraries tatlas,tatlas not found in /usr/local/lib
+    libraries lapack_atlas not found in /usr/lib
+    libraries tatlas,tatlas not found in /usr/lib
+    libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+    libraries tatlas,tatlas not found in /usr/lib/aarch64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+    NOT AVAILABLE
+
+  atlas_3_10_info:
+    libraries lapack_atlas not found in /usr/local/lib
+    libraries satlas,satlas not found in /usr/local/lib
+    libraries lapack_atlas not found in /usr/lib
+    libraries satlas,satlas not found in /usr/lib
+    libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+    libraries satlas,satlas not found in /usr/lib/aarch64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_3_10_info'>
+    NOT AVAILABLE
+
+  atlas_threads_info:
+  Setting PTATLAS=ATLAS
+    libraries lapack_atlas not found in /usr/local/lib
+    libraries ptf77blas,ptcblas,atlas not found in /usr/local/lib
+    libraries lapack_atlas not found in /usr/lib
+    libraries ptf77blas,ptcblas,atlas not found in /usr/lib
+    libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+    libraries ptf77blas,ptcblas,atlas not found in /usr/lib/aarch64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_threads_info'>
+    NOT AVAILABLE
+
+  atlas_info:
+    libraries lapack_atlas not found in /usr/local/lib
+    libraries f77blas,cblas,atlas not found in /usr/local/lib
+    libraries lapack_atlas not found in /usr/lib
+    libraries f77blas,cblas,atlas not found in /usr/lib
+    libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+    libraries f77blas,cblas,atlas not found in /usr/lib/aarch64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_info'>
+    NOT AVAILABLE
+
+  lapack_info:
+    libraries lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+    NOT AVAILABLE
+
+  /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1748: UserWarning:
+      Lapack (http://www.netlib.org/lapack/) libraries not found.
+      Directories to search for the libraries can be specified in the
+      numpy/distutils/site.cfg file (section [lapack]) or by setting
+      the LAPACK environment variable.
+    return getattr(self, '_calc_info_{}'.format(name))()
+  lapack_src_info:
+    NOT AVAILABLE
+
+  /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1748: UserWarning:
+      Lapack (http://www.netlib.org/lapack/) sources not found.
+      Directories to search for the sources can be specified in the
+      numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+      the LAPACK_SRC environment variable.
+    return getattr(self, '_calc_info_{}'.format(name))()
+    NOT AVAILABLE
+
+  numpy_linalg_lapack_lite:
+    FOUND:
+      language = c
+      define_macros = [('HAVE_BLAS_ILP64', None), ('BLAS_SYMBOL_SUFFIX', '64_')]
+
+  /usr/lib/python3.6/distutils/dist.py:261: UserWarning: Unknown distribution option: 'define_macros'
+    warnings.warn(msg)
+  running bdist_wheel
+  running build
+  running config_cc
+  unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+  running config_fc
+  unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+  running build_src
+  build_src
+  building py_modules sources
+  creating build
+  creating build/src.linux-aarch64-3.6
+  creating build/src.linux-aarch64-3.6/numpy
+  creating build/src.linux-aarch64-3.6/numpy/distutils
+  building library "npymath" sources
+  Could not locate executable gfortran
+  Could not locate executable f95
+  Could not locate executable ifort
+  Could not locate executable ifc
+  Could not locate executable lf95
+  Could not locate executable pgfortran
+  Could not locate executable nvfortran
+  Could not locate executable f90
+  Could not locate executable f77
+  Could not locate executable fort
+  Could not locate executable efort
+  Could not locate executable efc
+  Could not locate executable g77
+  Could not locate executable g95
+  Could not locate executable pathf95
+  Could not locate executable nagfor
+  don't know how to compile Fortran code on platform 'posix'
+  creating build/src.linux-aarch64-3.6/numpy/core
+  creating build/src.linux-aarch64-3.6/numpy/core/src
+  creating build/src.linux-aarch64-3.6/numpy/core/src/npymath
+  conv_template:> build/src.linux-aarch64-3.6/numpy/core/src/npymath/npy_math_internal.h
+    adding 'build/src.linux-aarch64-3.6/numpy/core/src/npymath' to include_dirs.
+  conv_template:> build/src.linux-aarch64-3.6/numpy/core/src/npymath/ieee754.c
+  conv_template:> build/src.linux-aarch64-3.6/numpy/core/src/npymath/npy_math_complex.c
+  None - nothing done with h_files = ['build/src.linux-aarch64-3.6/numpy/core/src/npymath/npy_math_internal.h']
+  building library "npysort" sources
+  creating build/src.linux-aarch64-3.6/numpy/core/src/common
+  conv_template:> build/src.linux-aarch64-3.6/numpy/core/src/common/npy_sort.h
+    adding 'build/src.wDef7By0LLZg2iqwGb0EtlVkC6qtIdsS15YZbE8V1oGtmrXKuQnPZ3gOEiTQjpvsj/z5XlaRzSC0Z+4XaF95OtBmSTXLxgvmesE/UPads70NyH4S0Cawne3c4OnjhphcdxTN80TdXi+0nBNUC5rbCGx+zMveYluQPfu4FwoWuCKhJ2jPcsWcsx6PiWwbtG2bbbNtP9DN0zP+BcHzfjkw/U8N2iZoltDeFdaRbVkqbh3ZoUGdyA6WSx4giOiuwNajD9CWg7/KZA8fjXf7vYeJboORPM0eLQdDsf6ewFWQbQ24z0pYQpsfrxNgm5aJ73hQLLhmFH030L6Xgc0PMrHmuiB7XTxScjRkWysZ7y50cIfJ39tHThQcBCSE7DCWkI8aJdAeq4Dr6OgoJ1jdZ7bZlZx45oivtNQUgVmMCr1knLhmNjs8PFzhmj8bHCLPM4lAed7Zye2++dbbGpLffFN1oWdW28VZThb7Au033sBLL76EV/u/jpEFjpgw0wfj6zRoq2ZoVR5wjHKTx8gLc4pjcXRRDg4tyseKugwUpIXDNc4D/ZPGY1SpG6o3zcSiMyuw9MJqtB9dgKqVRYittEfCVGer2E6tc8OiI7k4/mUjDrPx2UOQzWBGe8eHBVh2ohiV08uQlyvYzi9Swc7jBQXFAmM+nnEC4ARVNh4UFCIndd4K2eN4cs0SUQmC+91330OwnLTtXDYDt44sxS+vbsb0smw5gfaQxz5Codoatp9laGvdxMd1ZrEN0YlsC2hbQbaai23IYhuR3atstlsntEN/uNDm2mRmULluOi0tDZmZmcjJzlHNztjkrKKiUnUR5/prjpxi9pn7RGQTsrwd3ibBzszyHLU2uxWrV6/SGnsJgFkmTlSyHJqZWoKZ0GSjNq7D5mPI+6Ky2J98qvbt/r37aq02gU1Acx+ZCd+xY6fKArNL+foNGxTkt2zZqrqRXxOYPgq0tcuPcPH6fXRsv4D0RWcwuO4k/n7KSbxUewZvzGK5+Hn8YsY5vD79DF6uOqHWYf/IAGyP2gOYPGcn5i7ZjI3r12DDutVYs3q1mgfOLut8HPiGAveFjznLwQ8ePKDeJNi1a6dao37+3DlcungRV69cMZavX7t2VaH77Jkz6nu5eXnyujfUDNkENkvJtTJxJyOunyayzaGtA1sPC2QboW0ObG8Btp8AO9Dw5n9oYLAR2sxox2X5o2Bhz9CuP+yJedeeDrTZJKzlrCeSKrzg6yewNmmE9jjQdneRx9FJXg+93RCe7I7MOg9M2+wpsBY8C5QJ7FYBNqOtC7TNsa1BuxPbc+X3Z+zxQE6rQFuOVdagTWTntLmi/bL2ZoK1+/7w8FLIVtD+wAZt22bbbNsPaJs0adJ/CfALyAry8/+vCsUBgf/BgxRDvRNswDU/N0V2l1Jx+Vkd2YxQgZcePl5eKgM9ZvRYE1hbRu+hPWE8M9ljMWzEUExyH4KShR5YfjUWG+4nPXPrsa2FObS19djMYm+9xwx2iQL2DgXsTmQ/bWhvup+J1VfTFLJjk+QEJcBQIm5AdF8jQgAcrKoYnOXvOk5O3sYp3NoLWJwIbYJETiCsQZtBbBPRxDVLxolqlokzk82PQwUqvAzmc5a3ZUA2g13IBw4cqDqPv/zyK3jnnX4K2X3OaAu0X37pFbz85qvoFzgU4wTY42f6mnUdH1/oDucAd0zJjMChhfm4u3s6Pj08EwcWFqF0cpRA3BUjs5wR1ZSC9mOLsPjcSsw/vQx122rlxMVFnbxYw3b8VAfUrYvB1pvlOPRF9UORbRpb7xZiRnMZigrLUVhYgvyCEhQKtHNzC5CcnCoQ1jBMLAfI/66LIJEVCJwbPXqkgFQwSnQPHzYCIX4eWNFShn2rG/Dg1GrkJEeg3zsDVJWAv7wOEOu8LkJbx/azCO1x8nfmfWI3cdXs7DGQ7aI3O9OBbYZsRvfI/muBNjFLDLP0m53E8/O0cV0lJSUoKZbnY2Eh8vPz5PNSwfR2ue6v1G1wfBjhyusiCFm+zUz2smVLsXnLZvN12IJFrqtmwzGuw+bva4/Z71UWm2PIWFqt7xfhzmzuBYE5r2PTxk2C1zVYu2YtNmzYqIDNcV/6CCz+zI2bjzbe66OPPpTb/Bh7zj7AhMYLeH3Gebwx8zzeEWC/xXLxOgE2G6AJsF8sO4qfsdFZ+VEMmnoIiY170b54Czauk/1aJ/tnnIW9XpXMr5Wvc406S8J5//lmg5aF3yD7zOZoGqK5HpxZa95nIpufnzt7VmW5jxw+rDCemTkZQ4YOU8gmsFWZ+ER5zjs4KUTrpeJdcM0QVJuViwukHzeL3Yls61lsa6XiXl4+qpFbgLweEdY859CArYccF7wDEZ/th6LFPUO76YS2jnrB04D2PU/MPibHtRhveMs5kbfcp8eBtioXl8fS08MdgRHuiC/yQNVawfwZrdFZ6zlGJ7L1MELbiG1r0NawzZFfUza4I6PBRR2jukBbLjMaXVG+xk2VxT/a+mwB9k1vYyz/wA8Lbnj/x/yrNmjbNttm234Am5+f3xCB8y+DAgL+Nw9IZsg2ND3jwarremzznzUNHdhhQcHw9/UV3DgqGI816zJuGb2HNn9u1Ljh8EsYg7YjoUa0WkPtsxg6tFkmzpnY2wTLOwTYDC2L/d1Ce9M9LZNdsyQGkbHyN/bV1rWxFNwaovsaLCcncE2R7SEnDDyZ8JSwBm42SGMZuZq1TYhFRyM0LKwzky1Q0SNQbiNIgpf+8jwNCAyQE0UH9OvfHz/7+UuqjJzPm0eB9iuvvCrX8XP8rP8rGF3hhgkGaOtztEdMdcekRDfEx/ljWW0aPj5Yhz9casXvL8zB4SXFKM4Mh12IC4bnOGLm7mYsOLUU8yQa98xGNsvHBdvxU5y6YJvdXfNbfDHvYCoOfFHVa2Tv/EQrIW/bUIpptZUCmQrkC7aLBNp5eYVISWEpPjPQyQgMDIavr5+Ctre7C4K8XeHm5KCyvUTpiGEjER7ojdXtlTi8oRmfnl+PwoxY9Os3QK3lZrDkOlBeHwjpZy+jbchky994gvytCWw9OpHddYSXObL1UnF71U3cVW6DyDaD9kOR3QltT9lPF8cfPrQJO5Zzb9y4UaGauK4or8CUqimonlatuoqzlJz4Zhn50aPHFFiJVWadWQ7O7O3ixYvVWmzTddjMRBPhXGPN21Rl4rLfv//9HxSKP5fPuRZbh++D+w/UdXLt9oH9+7F+3TrVrXzd2nXYqANboEpgqy7dclv79u7FMbkt3sYjQVsuP/roExy5+ikGNV1E/8YrGD/3fdjNu4mhjRfxypQTxkZnjH4VRxA24wDmLNqCNWvWyT52Att0HjYz/PobAXxsmd1mOf2BA/txRh4Xvomg1mGzTFyAzbXYzGgzu33q5El5XA+rx4C/z8eA/5fDhg03lIlrwO6x0RnDFNcmyO4VsBlWcG0EtjVky/+9dWB7dwJbzjVCVVgiW4d2EBLz/VC6ysMqshlPFdpyfQvveKJut6e81sq+WyD7UaDtIcD28nZHeKoHyld5ovmkAdNnGYJsPSygzegJ253g1qBdtNhNOyaZVl0ZoM2PJ892xfSdj7I+20uiE9hdoH3dBm3bZtts23O+BXkGvRPsH9giiP5fPCCZwpkZai2DbV4qbgps0yy2jmsjsgVI/Lqzo5z88t1yxhOA9qjh4+DiP1oQ4oZF56Kw6qZ1zD67EacuWSa+5V6+AdUasr8vaG+Qy+KGcIGqnLjIAd5bDu68ZPh5e8vzwO+x0c3sNk8OOMuT78R7y0mSn692ksR11cQ212hbgpsN0ojtSEPJODPZBDeDuGY2m8DmPG4VAQHwY3Mvue5Bgwfj5wLt1157HUPkYyKf0Sdov/oqXnzxZ/jpz1/EkNSJGDvdE+NqvY3QHlnljpHlrrCLdUNuUhiOLC3Gb87NwZ+utOOzI7OwrikLURE+mBTjjLwlpWg+2IG5Jxaj6hon))
+  SystemError: Cannot compile 'Python.h'. Perhaps you need to install python-dev|python-devel.
+
+  ----------------------------------------
+  Failed building wheel for numpy
+  Running setup.py clean for numpy
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-8d_d2f69/numpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" clean --all:
+  Running from numpy source directory.
+
+  `setup.py clean` is not supported, use one of the following instead:
+
+    - `git clean -xdf` (cleans all files)
+    - `git clean -Xdf` (cleans all versioned files, doesn't touch
+                        files that aren't checked into the git repo)
+
+  Add `--force` to your command to use it anyway if you must (unsupported).
+
+
+  ----------------------------------------
+  Failed cleaning build dir for numpy
+Failed to build numpy
+Installing collected packages: numpy
+  Running setup.py install for numpy ... error
+    Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-8d_d2f69/numpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-ywfbzjjc-record/install-record.txt --single-version-externally-managed --compile:
+    Running from numpy source directory.
+
+    Note: if you need reliable uninstall behavior, then install
+    with pip instead of using `setup.py install`:
+
+      - `pip install .`       (from a git repo or downloaded source
+                               release)
+      - `pip install numpy`   (last NumPy release on PyPi)
+
+
+    Cythonizing sources
+    numpy/random/_bounded_integers.pxd.in has not changed
+    numpy/random/bit_generator.pyx has not changed
+    Processing numpy/random/_bounded_integers.pyx
+    numpy/random/_bounded_integers.pyx.in has not changed
+    numpy/random/_pcg64.pyx has not changed
+    numpy/random/mtrand.pyx has not changed
+    numpy/random/_sfc64.pyx has not changed
+    numpy/random/_common.pyx has not changed
+    numpy/random/_generator.pyx has not changed
+    numpy/random/_mt19937.pyx has not changed
+    numpy/random/_philox.pyx has not changed
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    blis_info:
+      libraries blis not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_info:
+      libraries openblas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    atlas_3_10_blas_threads_info:
+    Setting PTATLAS=ATLAS
+      libraries tatlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    atlas_3_10_blas_info:
+      libraries satlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    atlas_blas_threads_info:
+    Setting PTATLAS=ATLAS
+      libraries ptf77blas,ptcblas,atlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    atlas_blas_info:
+      libraries f77blas,cblas,atlas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    accelerate_info:
+      NOT AVAILABLE
+
+    /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1914: UserWarning:
+        Optimized (vendor) Blas libraries are not found.
+        Falls back to netlib Blas library which has worse performance.
+        A better performance should be easily gained by switching
+        Blas library.
+      if self._calc_info(blas):
+    blas_info:
+      libraries blas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1914: UserWarning:
+        Blas (http://www.netlib.org/blas/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [blas]) or by setting
+        the BLAS environment variable.
+      if self._calc_info(blas):
+    blas_src_info:
+      NOT AVAILABLE
+
+    /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1914: UserWarning:
+        Blas (http://www.netlib.org/blas/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [blas_src]) or by setting
+        the BLAS_SRC environment variable.
+      if self._calc_info(blas):
+      NOT AVAILABLE
+
+    non-existing path in 'numpy/distutils': 'site.cfg'
+    lapack_opt_info:
+    lapack_mkl_info:
+      libraries mkl_rt not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_lapack_info:
+      libraries openblas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    openblas_clapack_info:
+      libraries openblas,lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    flame_info:
+      libraries flame not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    atlas_3_10_threads_info:
+    Setting PTATLAS=ATLAS
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries tatlas,tatlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries tatlas,tatlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+      libraries tatlas,tatlas not found in /usr/lib/aarch64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+      NOT AVAILABLE
+
+    atlas_3_10_info:
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries satlas,satlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries satlas,satlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+      libraries satlas,satlas not found in /usr/lib/aarch64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_3_10_info'>
+      NOT AVAILABLE
+
+    atlas_threads_info:
+    Setting PTATLAS=ATLAS
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries ptf77blas,ptcblas,atlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib/aarch64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_threads_info'>
+      NOT AVAILABLE
+
+    atlas_info:
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries f77blas,cblas,atlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries f77blas,cblas,atlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib/aarch64-linux-gnu
+      libraries f77blas,cblas,atlas not found in /usr/lib/aarch64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_info'>
+      NOT AVAILABLE
+
+    lapack_info:
+      libraries lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/aarch64-linux-gnu']
+      NOT AVAILABLE
+
+    /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1748: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [lapack]) or by setting
+        the LAPACK environment variable.
+      return getattr(self, '_calc_info_{}'.format(name))()
+    lapack_src_info:
+      NOT AVAILABLE
+
+    /tmp/pip-build-8d_d2f69/numpy/numpy/distutils/system_info.py:1748: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+        the LAPACK_SRC environment variable.
+      return getattr(self, '_calc_info_{}'.format(name))()
+      NOT AVAILABLE
+
+    numpy_linalg_lapack_lite:
+      FOUND:
+        language = c
+        define_macros = [('HAVE_BLAS_ILP64', None), ('BLAS_SYMBOL_SUFFIX', '64_')]
+
+    /usr/lib/python3.6/distutils/dist.py:261: UserWarning: Unknown distribution option: 'define_macros'
+      warnings.warn(msg)
+    running install
+    running build
+    running config_cc
+    unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+    running config_fc
+    unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+    running build_src
+    build_src
+    building py_modules sources
+    building library "npymath" sources
+    Could not locate executable gfortran
+    Could not locate executable f95
+    Could not locate executable ifort
+    Could not locate executable ifc
+    Could not locate executable lf95
+    Could not locate executable pgfortran
+    Could not locate executable nvfortran
+    Could not locate executable f90
+    Could not locate executable f77
+    Could not locate executable fort
+    Could not locate executable efort
+    Could not locate executable efc
+    Could not locate executable g77
+    Could not locate executable g95
+    Could not locate executable pathf95
+    Could not locate executable nagfor
+    don't know how to compile Fortran code on platform 'posix'
+      adding 'build/src.linux-aarch64-3.6/numpy/core/src/npymath' to include_dirs.
+    None - nothing done with h_files = ['build/src.linux-aarch64-3.6/numpy/core/src/npymath/npy_math_internal.h']
+    building library "npysort" sources
+      adding 'build/src.linux-aarch64-3.6/numpy/core/src/common' to include_dirs.
+    None - nothing done with h_files = ['build/src.linux-aarch64-3.6/numpy/core/src/common/npy_sort.h', 'build/src.linux-aarch64-3.6/numpy/core/src/common/npy_partition.h', 'build/src.linux-aarch64-3.6/numpy/core/src/common/npy_binsearch.h']
+    building library "npyrandom" sources
+    building extension "numpy.core._multiarray_tests" sources
+    building extension "numpy.core._multiarray_umath" sources
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-build-8d_d2f69/numpy/setup.py", line 508, in <module>
+        setup_package()
+      File "/tmp/pip-build-8d_d2f69/numpy/setup.py", line 500, in setup_package
+        setup(**metadata)
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/core.py", line 169, in setup
+        return old_setup(**new_attr)
+      File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 129, in setup
+        return distutils.core.setup(**attrs)
+      File "/usr/lib/python3.6/distutils/core.py", line 148, in setup
+        dist.run_commands()
+      File "/usr/lib/python3.6/distutils/dist.py", line 955, in run_commands
+        self.run_command(cmd)
+      File "/usr/lib/python3.6/distutils/dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/command/install.py", line 60, in run
+        r = self.setuptools_run()
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/command/install.py", line 34, in setuptools_run
+        return distutils_install.run(self)
+      File "/usr/lib/python3.6/distutils/command/install.py", line 589, in run
+        self.run_command('build')
+      File "/usr/lib/python3.6/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/usr/lib/python3.6/distutils/dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/command/build.py", line 40, in run
+        old_build.run(self)
+      File "/usr/lib/python3.6/distutils/command/build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "/usr/lib/python3.6/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/usr/lib/python3.6/distutils/dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/command/build_src.py", line 144, in run
+        self.build_sources()
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/command/build_src.py", line 161, in build_sources
+        self.build_extension_sources(ext)
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/command/build_src.py", line 318, in build_extension_sources
+        sources = self.generate_sources(sources, ext)
+      File "/tmp/pip-build-8d_d2f69/numpy/numpy/distutils/command/build_src.py", line 378, in generate_sources
+        source = func(extension, build_dir)
+      File "numpy/core/setup.py", line 436, in generate_config_h
+        moredefs, ignored = cocache.check_types(config_cmd, ext, build_dir)
+      File "numpy/core/setup.py", line 47, in check_types
+        out = check_types(*a, **kw)
+      File "numpy/core/setup.py", line 294, in check_types
+        "install {0}-dev|{0}-devel.".format(python))
+    SystemError: Cannot compile 'Python.h'. Perhaps you need to install python-dev|python-devel.
+
+    ----------------------------------------
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-8d_d2f69/numpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-ywfbzjjc-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-8d_d2f69/numpy/
+- Run configure_jetson.sh script
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target ? /lib/systemd/system/multi-user.target.
+Removed /etc/systemd/system/multi-user.target.wants/nvzramconfig.service.
+Download Models
+- Collision Avoidance Model
+./install_jetbot.sh: line 93: cd: /home/jetbot/Notebooks/collision_avoidance: No such file or directory
+--2021-06-16 12:13:03--  https://docs.google.com/uc?export=download&confirm=hcc6&id=1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW
+Resolving docs.google.com (docs.google.com)... 142.250.72.78, 2607:f8b0:400f:807::200e
+Connecting to docs.google.com (docs.google.com)|142.250.72.78|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://doc-0c-2g-docs.googleusercontent.com/docs/securesc/l5lnunigelo4h5cvuiolfejv9kb7stjf/h3u64sc6g2pkpcue6qd73ansub4tdsk1/1623867150000/18333970442717289311/12423507989631936537Z/1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW?e=download [following]
+--2021-06-16 12:13:03--  https://doc-0c-2g-docs.googleusercontent.com/docs/securesc/l5lnunigelo4h5cvuiolfejv9kb7stjf/h3u64sc6g2pkpcue6qd73ansub4tdsk1/1623867150000/18333970442717289311/12423507989631936537Z/1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW?e=download
+Resolving doc-0c-2g-docs.googleusercontent.com (doc-0c-2g-docs.googleusercontent.com)... 142.250.72.33, 2607:f8b0:400f:804::2001
+Connecting to doc-0c-2g-docs.googleusercontent.com (doc-0c-2g-docs.googleusercontent.com)|142.250.72.33|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://docs.google.com/nonceSigner?nonce=6q683o104veaq&continue=https://doc-0c-2g-docs.googleusercontent.com/docs/securesc/l5lnunigelo4h5cvuiolfejv9kb7stjf/h3u64sc6g2pkpcue6qd73ansub4tdsk1/1623867150000/18333970442717289311/12423507989631936537Z/1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW?e%3Ddownload&hash=ebvjl1md6pv75m0t091mldcisvsfhqvn [following]
+--2021-06-16 12:13:03--  https://docs.google.com/nonceSigner?nonce=6q683o104veaq&continue=https://doc-0c-2g-docs.googleusercontent.com/docs/securesc/l5lnunigelo4h5cvuiolfejv9kb7stjf/h3u64sc6g2pkpcue6qd73ansub4tdsk1/1623867150000/18333970442717289311/12423507989631936537Z/1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW?e%3Ddownload&hash=ebvjl1md6pv75m0t091mldcisvsfhqvn
+Connecting to docs.google.com (docs.google.com)|142.250.72.78|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://doc-0c-2g-docs.googleusercontent.com/docs/securesc/l5lnunigelo4h5cvuiolfejv9kb7stjf/h3u64sc6g2pkpcue6qd73ansub4tdsk1/1623867150000/18333970442717289311/12423507989631936537Z/1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW?e=download&nonce=6q683o104veaq&user=12423507989631936537Z&hash=k8qvunmg8m4lklbgqmq0ku0ko7u7ra9t [following]
+--2021-06-16 12:13:03--  https://doc-0c-2g-docs.googleusercontent.com/docs/securesc/l5lnunigelo4h5cvuiolfejv9kb7stjf/h3u64sc6g2pkpcue6qd73ansub4tdsk1/1623867150000/18333970442717289311/12423507989631936537Z/1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW?e=download&nonce=6q683o104veaq&user=12423507989631936537Z&hash=k8qvunmg8m4lklbgqmq0ku0ko7u7ra9t
+Connecting to doc-0c-2g-docs.googleusercontent.com (doc-0c-2g-docs.googleusercontent.com)|142.250.72.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/octet-stream]
+Saving to: ‘best_model.pth’
+
+best_model.pth          [              <=>   ] 217.49M  81.3MB/s    in 2.7s
+
+2021-06-16 12:13:06 (81.3 MB/s) - ‘best_model.pth’ saved [228050993]
+
+- Object Detection Model
+./install_jetbot.sh: line 99: cd: /home/jetbot/Notebooks/object_following: No such file or directory
+--2021-06-16 12:13:09--  https://docs.google.com/uc?export=download&confirm=&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH
+Resolving docs.google.com (docs.google.com)... 142.250.72.78, 2607:f8b0:400f:807::200e
+Connecting to docs.google.com (docs.google.com)|142.250.72.78|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://doc-0k-7c-docs.googleusercontent.com/docs/securesc/2d7s3tvtvv0m1mmrpg7mbo1ilgv3finv/ica3ijc6tp9ikihn9hag5eto97huhte3/1623867150000/18333970442717289311/06508182706587171505Z/1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH?e=download [following]
+--2021-06-16 12:13:10--  https://doc-0k-7c-docs.googleusercontent.com/docs/securesc/2d7s3tvtvv0m1mmrpg7mbo1ilgv3finv/ica3ijc6tp9ikihn9hag5eto97huhte3/1623867150000/18333970442717289311/06508182706587171505Z/1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH?e=download
+Resolving doc-0k-7c-docs.googleusercontent.com (doc-0k-7c-docs.googleusercontent.com)... 142.250.72.33, 2607:f8b0:400f:804::2001
+Connecting to doc-0k-7c-docs.googleusercontent.com (doc-0k-7c-docs.googleusercontent.com)|142.250.72.33|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://docs.google.com/nonceSigner?nonce=puacr9d4fubsg&continue=https://doc-0k-7c-docs.googleusercontent.com/docs/securesc/2d7s3tvtvv0m1mmrpg7mbo1ilgv3finv/ica3ijc6tp9ikihn9hag5eto97huhte3/1623867150000/18333970442717289311/06508182706587171505Z/1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH?e%3Ddownload&hash=v44rlt3luvfe3bv1rhl4bcs2cn5k748n [following]
+--2021-06-16 12:13:10--  https://docs.google.com/nonceSigner?nonce=puacr9d4fubsg&continue=https://doc-0k-7c-docs.googleusercontent.com/docs/securesc/2d7s3tvtvv0m1mmrpg7mbo1ilgv3finv/ica3ijc6tp9ikihn9hag5eto97huhte3/1623867150000/18333970442717289311/06508182706587171505Z/1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH?e%3Ddownload&hash=v44rlt3luvfe3bv1rhl4bcs2cn5k748n
+Connecting to docs.google.com (docs.google.com)|142.250.72.78|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://doc-0k-7c-docs.googleusercontent.com/docs/securesc/2d7s3tvtvv0m1mmrpg7mbo1ilgv3finv/ica3ijc6tp9ikihn9hag5eto97huhte3/1623867150000/18333970442717289311/06508182706587171505Z/1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH?e=download&nonce=puacr9d4fubsg&user=06508182706587171505Z&hash=daa1kn2cotsnr8baqncnoqmplljfjak0 [following]
+--2021-06-16 12:13:10--  https://doc-0k-7c-docs.googleusercontent.com/docs/securesc/2d7s3tvtvv0m1mmrpg7mbo1ilgv3finv/ica3ijc6tp9ikihn9hag5eto97huhte3/1623867150000/18333970442717289311/06508182706587171505Z/1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH?e=download&nonce=puacr9d4fubsg&user=06508182706587171505Z&hash=daa1kn2cotsnr8baqncnoqmplljfjak0
+Connecting to doc-0k-7c-docs.googleusercontent.com (doc-0k-7c-docs.googleusercontent.com)|142.250.72.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/octet-stream]
+Saving to: ‘ssd_mobilenet_v2_coco.engine’
+
+ssd_mobilenet_v2_co     [   <=>              ]  33.30M  67.3MB/s    in 0.5s
+
+2021-06-16 12:13:11 (67.3 MB/s) - ‘ssd_mobilenet_v2_coco.engine’ saved [34918339]
+
+
+
+Run Jetbot ROS Installation Script
+Install Jetbot ROS
+- Install Jetbot ROS Melodic
+'universe' distribution component is already enabled for all sources.
+'multiverse' distribution component is already enabled for all sources.
+'restricted' distribution component is already enabled for all sources.
+Executing: /tmp/apt-key-gpghome.OHfgfgTZXM/gpg.1.sh --keyserver hkp://keyserver.ubuntu.com:80 --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+gpg: key F42ED6FBAB17C654: public key "Open Robotics <info@osrfoundation.org>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+Get:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Ign:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Get:2 file:/var/visionworks-repo  InRelease
+Ign:2 file:/var/visionworks-repo  InRelease
+Get:3 file:/var/visionworks-sfm-repo  InRelease
+Ign:3 file:/var/visionworks-sfm-repo  InRelease
+Get:4 file:/var/visionworks-tracking-repo  InRelease
+Ign:4 file:/var/visionworks-tracking-repo  InRelease
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Hit:9 https://repo.download.nvidia.com/jetson/common r32 InRelease
+Hit:10 http://ports.ubuntu.com/ubuntu-ports bionic InRelease
+Hit:11 https://repo.download.nvidia.com/jetson/t210 r32 InRelease
+Hit:12 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease
+Hit:13 http://ports.ubuntu.com/ubuntu-ports bionic-backports InRelease
+Get:14 http://packages.ros.org/ros/ubuntu bionic InRelease [4,680 B]
+Hit:16 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease
+Get:20 http://packages.ros.org/ros/ubuntu bionic/main arm64 Packages [744 kB]
+Fetched 749 kB in 3s (279 kB/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ ros-melodic-ros-base : Depends: ros-melodic-actionlib but it is not going to be installed
+                        Depends: ros-melodic-bond-core but it is not going to be installed
+                        Depends: ros-melodic-dynamic-reconfigure but it is not going to be installed
+                        Depends: ros-melodic-nodelet-core but it is not going to be installed
+                        Depends: ros-melodic-ros-core but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+- Create a ROS Catkin Workspace
+./install_jetbot_ros.sh: line 101: catkin_make: command not found
+
+./install_jetbot_ros.sh: line 117: /home/nvidia/workspace/catkin_ws/src:/opt/ros/melodic/share: No such file or directory
+- Install and Build jetson-inference
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+cmake is already the newest version (3.10.2-1ubuntu2.18.04.1).
+git is already the newest version (1:2.17.1-1ubuntu0.4).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Cloning into 'jetson-inference'...
+remote: Enumerating objects: 16736, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (23/23), done.
+remote: Total 16736 (delta 13), reused 23 (delta 8), pack-reused 16705
+Receiving objects: 100% (16736/16736), 109.38 MiB | 1.39 MiB/s, done.
+Resolving deltas: 100% (13732/13732), done.
+Checking out files: 100% (1617/1617), done.
+Submodule 'python/training/classification' (https://github.com/dusty-nv/pytorch-classification) registered for path 'python/training/classification'
+Submodule 'python/training/detection' (https://github.com/dusty-nv/pytorch-detection) registered for path 'python/training/detection'
+Submodule 'python/training/segmentation' (https://github.com/dusty-nv/pytorch-segmentation) registered for path 'python/training/segmentation'
+Submodule 'tools/camera-capture' (https://github.com/dusty-nv/camera-capture) registered for path 'tools/camera-capture'
+Submodule 'utils' (https://github.com/dusty-nv/jetson-utils) registered for path 'utils'
+Cloning into '/home/jetbot/workspace/jetson-inference/python/training/classification'...
+Cloning into '/home/jetbot/workspace/jetson-inference/python/training/detection'...
+Cloning into '/home/jetbot/workspace/jetson-inference/python/training/segmentation'...
+Cloning into '/home/jetbot/workspace/jetson-inference/tools/camera-capture'...
+Cloning into '/home/jetbot/workspace/jetson-inference/utils'...
+Submodule path 'python/training/classification': checked out '15c7d51cd6a1271e5ee6959c3f91fb95b6b54ff0'
+Submodule path 'python/training/detection': checked out '46fdf137908fd0444da0b3bd84dc09543a35512d'
+Submodule path 'python/training/segmentation': checked out '6ae33ba3426665b8bde8923c0434d207ea4331e0'
+Submodule path 'tools/camera-capture': checked out '1571f9048ff63ec5e5b523e4e41d1988905b9d84'
+Submodule path 'utils': checked out 'ebab1914877a51d4d33fa9b1f01b168adb712a32'
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+
+Note:  this project uses git submodules in the source tree.
+       if you haven't already, run the following command from
+       the project's root directory:
+
+           git submodule update --init
+
+
+-- Launching pre-build dependency installer script...
+-- Build interactive:  YES
+[Pre-build]  dependency installer script running...
+[Pre-build]  build root directory: /home/jetbot/workspace/jetson-inference/build
+[Pre-build]  build interactive:    YES
+[Pre-build]  build container:      NO
+
+Get:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Ign:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Get:2 file:/var/visionworks-repo  InRelease
+Ign:2 file:/var/visionworks-repo  InRelease
+Get:3 file:/var/visionworks-sfm-repo  InRelease
+Ign:3 file:/var/visionworks-sfm-repo  InRelease
+Get:4 file:/var/visionworks-tracking-repo  InRelease
+Ign:4 file:/var/visionworks-tracking-repo  InRelease
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Hit:9 https://repo.download.nvidia.com/jetson/common r32 InRelease
+Hit:10 http://packages.ros.org/ros/ubuntu bionic InRelease
+Hit:11 http://ports.ubuntu.com/ubuntu-ports bionic InRelease
+Hit:12 https://repo.download.nvidia.com/jetson/t210 r32 InRelease
+Hit:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease
+Hit:14 http://ports.ubuntu.com/ubuntu-ports bionic-backports InRelease
+Hit:16 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  dialog
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 199 kB of archives.
+After this operation, 1,090 kB of additional disk space will be used.
+Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/universe arm64 dialog arm64 1.3-20171209-1 [199 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 199 kB in 0s (622 kB/s)
+                               Selecting previously unselected package dialog.
+(Reading database ... 169495 files and directories currently installed.)
+Preparing to unpack .../dialog_1.3-20171209-1_arm64.deb ...
+Unpacking dialog (1.3-20171209-1) ...
+Setting up dialog (1.3-20171209-1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libpython3-dev : Depends: libpython3.6-dev (>= 3.6.5-2~) but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libglib2.0-dev is already the newest version (2.56.4-0ubuntu0.18.04.4).
+libgstreamer-plugins-base1.0-dev is already the newest version (1.14.5-0ubuntu1~18.04.1).
+libgstreamer-plugins-base1.0-dev set to manually installed.
+libgstreamer1.0-dev is already the newest version (1.14.5-0ubuntu1~18.04.1).
+libgstreamer1.0-dev set to manually installed.
+The following additional packages will be installed:
+  libglew2.0
+The following NEW packages will be installed:
+  glew-utils libglew-dev libglew2.0
+0 upgraded, 3 newly installed, 0 to remove and 1 not upgraded.
+Need to get 333 kB of archives.
+After this operation, 2,513 kB of additional disk space will be used.
+Get:1 http://ports.ubuntu.com/ubuntu-ports bionic/universe arm64 libglew2.0 arm64 2.0.0-5 [137 kB]
+Get:2 http://ports.ubuntu.com/ubuntu-ports bionic/universe arm64 glew-utils arm64 2.0.0-5 [76.4 kB]
+Get:3 http://ports.ubuntu.com/ubuntu-ports bionic/universe arm64 libglew-dev arm64 2.0.0-5 [120 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 333 kB in 1s (662 kB/s)
+                               Selecting previously unselected package libglew2.0:arm64.
+(Reading database ... 169647 files and directories currently installed.)
+Preparing to unpack .../libglew2.0_2.0.0-5_arm64.deb ...
+Unpacking libglew2.0:arm64 (2.0.0-5) ...
+Selecting previously unselected package glew-utils.
+Preparing to unpack .../glew-utils_2.0.0-5_arm64.deb ...
+Unpacking glew-utils (2.0.0-5) ...
+Selecting previously unselected package libglew-dev:arm64.
+Preparing to unpack .../libglew-dev_2.0.0-5_arm64.deb ...
+Unpacking libglew-dev:arm64 (2.0.0-5) ...
+Setting up libglew2.0:arm64 (2.0.0-5) ...
+Setting up libglew-dev:arm64 (2.0.0-5) ...
+Setting up glew-utils (2.0.0-5) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ qtbase5-dev : Depends: libqt5core5a (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5dbus5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5gui5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5network5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5printsupport5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5sql5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5test5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5widgets5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5xml5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Recommends: libqt5opengl5-dev (= 5.9.5+dfsg-0ubuntu1) but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+Get:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Ign:1 file:/var/cuda-repo-10-0-local-10.0.326  InRelease
+Get:2 file:/var/visionworks-repo  InRelease
+Ign:2 file:/var/visionworks-repo  InRelease
+Get:3 file:/var/visionworks-sfm-repo  InRelease
+Ign:3 file:/var/visionworks-sfm-repo  InRelease
+Get:4 file:/var/visionworks-tracking-repo  InRelease
+Ign:4 file:/var/visionworks-tracking-repo  InRelease
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Get:5 file:/var/cuda-repo-10-0-local-10.0.326  Release [574 B]
+Get:6 file:/var/visionworks-repo  Release [1,999 B]
+Get:7 file:/var/visionworks-sfm-repo  Release [2,003 B]
+Get:8 file:/var/visionworks-tracking-repo  Release [2,008 B]
+Hit:9 https://repo.download.nvidia.com/jetson/common r32 InRelease
+Hit:10 http://packages.ros.org/ros/ubuntu bionic InRelease
+Hit:11 http://ports.ubuntu.com/ubuntu-ports bionic InRelease
+Hit:12 https://repo.download.nvidia.com/jetson/t210 r32 InRelease
+Hit:13 http://ports.ubuntu.com/ubuntu-ports bionic-updates InRelease
+Hit:14 http://ports.ubuntu.com/ubuntu-ports bionic-backports InRelease
+Hit:16 http://ports.ubuntu.com/ubuntu-ports bionic-security InRelease
+Reading package lists...
+[jetson-inference]  BUILD_INTERACTVE=YES
+[jetson-inference]  Checking for 'dialog' deb package...installed
+[jetson-inference]  FOUND_DIALOG=INSTALLED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Hello AI World (jetson-inference)
+ qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqModel Downloaderqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+x Keys:                                                                        x
+x   ??  Navigate Menu                                                          x
+x   Space to Select Models                                                     x
+x   Enter to Continue                                                          x
+x lqqqqqqqqqq?(-)qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk x
+x x      [ ] 36     > FCN-Alexnet-Cityscapes-SD     (235 MB)                 x x
+x x      [ ] 37     > FCN-Alexnet-Cityscapes-HD     (235 MB)                 x x
+x x      [ ] 38     > FCN-Alexnet-Aerial-FPV        (7 MB)                   x x
+x x      [ ] 39     > FCN-Alexnet-Pascal-VOC        (235 MB)                 x x
+x x      [ ] 40     > FCN-Alexnet-Synthia-CVPR      (235 MB)                 x x
+x x      [ ] 41     > FCN-Alexnet-Synthia-Summer-SD (235 MB)                 x x
+x x      [ ] 42     > FCN-Alexnet-Synthia-Summer-HD (235 MB)                 x x
+x x      [ ] 43  Image Processing - all models   (138 MB)                    x x
+x x      [ ] 44     > Deep-Homography-COCO       (137 MB)                    x x
+x x      [ ] 45     > Super-Resolution-BSD500    (1 MB)                      x x
+x mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq100%qqqqj x
+tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu
+x                       <  OK  >            < Quit >                           x
+mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[jetson-inference]  Model selection status:  0
+[jetson-inference]  Models selected for download:  5 14 19
+[jetson-inference]  Downloading ResNet-18...
+ResNet-18.tar.gz    100%[===================>]  41.87M  2.39MB/s    in 13s
+[jetson-inference]  Downloading SSD-Mobilenet-v2...
+SSD-Mobilenet-v2.ta 100%[===================>]  59.61M  2.78MB/s    in 17s
+[jetson-inference]  Downloading DetectNet-COCO-Dog...
+DetectNet-COCO-Dog. 100%[===================>]  21.47M  2.23MB/s    in 5.5s
+
+[jetson-inference]  to run this tool again, use the following commands:
+
+    $ cd <jetson-inference>/tools
+    $ ./download-models.sh
+
+[jetson-inference]  BUILD_INTERACTVE=YES
+[jetson-inference]  Checking for 'dialog' deb package...installed
+[jetson-inference]  FOUND_DIALOG=INSTALLED
+[jetson-inference]  reading L4T version from /etc/nv_tegra_release
+./install-pytorch.sh: line 578: [: too many arguments
+[jetson-inference]  Jetson BSP Version:  L4T R32.3.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Hello AI World (jetson-inference)
+ qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+lqqqqqqqqqqqqqqqqqqqqqqPyTorch Installer (L4T R32.3.1)qqqqqqqqqqqqqqqqqqqqqqqqqk
+x If you want to train DNN models on your Jetson, this tool will download and  x
+x install PyTorch.  Select the desired versions of pre-built packages below,   x
+x or see http://eLinux.org/Jetson_Zoo for instructions to build from source.   x
+x                                                                              x
+x You can skip this step and select Skip if you don't want to install PyTorch. x
+x                                                                              x
+x Keys:                                                                        x
+x   ?? Navigate Menu                                                           x
+x   Space to Select                                                            x
+x   Enter to Continue                                                          x
+x                                                                              x
+x Packages to Install:                                                         x
+x lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk x
+x x                   [ ] 1  PyTorch 1.4.0 for Python 2.7                    x x
+x x                   [*] 2  PyTorch 1.4.0 for Python 3.6                    x x
+x mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj x
+tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu
+x                       <  OK  >            < Skip >                           x
+mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[jetson-inference]  Package selection status:  0
+[jetson-inference]  Packages selected for download:  2
+[jetson-inference]  Downloading PyTorch v1.4.0 (Python 3.6)...
+[jetson-inference]  Checking for 'python3-pip' deb package...installed
+dpkg-query: no packages found matching qtbase5-dev
+[jetson-inference]  Checking for 'qtbase5-dev' deb package...not installed
+[jetson-inference]  Missing 'qtbase5-dev' deb package...installing 'qtbase5-dev' package.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ qtbase5-dev : Depends: libqt5core5a (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5dbus5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5gui5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5network5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5printsupport5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5sql5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5test5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5widgets5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Depends: libqt5xml5 (= 5.9.5+dfsg-0ubuntu1) but 5.9.5+dfsg-0ubuntu2.3 is to be installed
+               Recommends: libqt5opengl5-dev (= 5.9.5+dfsg-0ubuntu1) but it is not going to be installed
+W: --force-yes is deprecated, use one of the options starting with --allow instead.
+E: Unable to correct problems, you have held broken packages.
+dpkg-query: no packages found matching qtbase5-dev
+[jetson-inference]  Checking for 'qtbase5-dev' deb package...not installed
+[jetson-inference]  Failed to install 'qtbase5-dev' deb package.
+
+[jetson-inference]  errors encountered during installation, exiting with code 1
+[jetson-inference]  to run this tool again, use the following commands:
+
+    $ cd <jetson-inference>/build
+    $ ./install-pytorch.sh
+
+[Pre-build]  Finished CMakePreBuild script
+-- Finished installing dependencies
+-- using patched FindCUDA.cmake
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Found CUDA: /usr/local/cuda (found version "10.0")
+-- CUDA version: 10.0
+-- CUDA 10 detected, enabling SM_72
+-- system arch:  aarch64
+-- output path:  /home/jetbot/workspace/jetson-inference/build/aarch64
+-- BUILD_EXPERIMENTAL disabled
+-- Copying /home/jetbot/workspace/jetson-inference/c/detectNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/imageNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/segNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/tensorConvert.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/tensorNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/calibration/randInt8Calibrator.h
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE)
+CMake Warning at tools/camera-capture/CMakeLists.txt:8 (find_package):
+  By not providing "FindQt5.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Qt5", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Qt5" with any of
+  the following names:
+
+    Qt5Config.cmake
+    qt5-config.cmake
+
+  Add the installation prefix of "Qt5" to CMAKE_PREFIX_PATH or set "Qt5_DIR"
+  to a directory containing one of the above files.  If "Qt5" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- camera-capture:  Qt5Widgets package not found, skipping...
+-- camera-capture:  run 'sudo apt-get install qtbase5-dev'
+-- jetson-utils:  building as submodule, /home/jetbot/workspace/jetson-inference
+-- Copying /home/jetbot/workspace/jetson-inference/utils/URI.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/XML.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/alphanum.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/commandLine.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvReader.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvWriter.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/filesystem.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/logging.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/mat33.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/pi.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/rand.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/timespec.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvReader.hpp
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvWriter.hpp
+-- Copying /home/jetbot/workspace/jetson-inference/utils/camera/gstCamera.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/camera/v4l2Camera.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/codec/gstDecoder.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/codec/gstEncoder.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/codec/gstUtility.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaBayer.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaColormap.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaColorspace.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaCrop.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaFilterMode.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaFont.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaGrayscale.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaMappedMemory.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaMath.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaNormalize.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaOverlay.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaPointCloud.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaRGB.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaResize.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaUtility.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaVector.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaWarp.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaYUV.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaAlphaBlend.cuh
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaFilterMode.cuh
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glBuffer.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glCamera.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glDisplay.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glEvents.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glTexture.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glUtility.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glWidget.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageFormat.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageIO.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageLoader.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageWriter.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/loadImage.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageFormat.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/input/devInput.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/input/devJoystick.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/input/devKeyboard.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/Endian.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/IPv4.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/NetworkAdapter.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/Socket.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Event.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Mutex.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Process.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/RingBuffer.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Thread.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Event.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Mutex.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/RingBuffer.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/video/videoOptions.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/video/videoOutput.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/video/videoSource.h
+-- trying to build Python bindings for Python versions:  2.7;3.6;3.7
+-- detecting Python 2.7...
+-- found Python version:  2.7 (2.7.17)
+-- found Python include:  /usr/include/python2.7
+-- found Python library:  /usr/lib/aarch64-linux-gnu/libpython2.7.so
+-- CMake module path:  /home/jetbot/workspace/jetson-inference/utils/cuda;/home/jetbot/workspace/jetson-inference/utils/python/bindings
+-- NumPy ver. 1.13.3 found (include: /usr/lib/python2.7/dist-packages/numpy/core/include)
+-- found NumPy version:  1.13.3
+-- found NumPy include:  /usr/lib/python2.7/dist-packages/numpy/core/include
+-- detecting Python 3.6...
+-- Python 3.6 wasn't found
+-- detecting Python 3.7...
+-- Python 3.7 wasn't found
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/camera-viewer.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-examples.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-from-cv.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-from-numpy.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-to-cv.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-to-numpy.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/gl-display-test.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/video-viewer.py
+-- trying to build Python bindings for Python versions:  2.7;3.6;3.7
+-- detecting Python 2.7...
+-- found Python version:  2.7 (2.7.17)
+-- found Python include:  /usr/include/python2.7
+-- found Python library:  /usr/lib/aarch64-linux-gnu/libpython2.7.so
+-- CMake module path:  /home/jetbot/workspace/jetson-inference/utils/cuda;/home/jetbot/workspace/jetson-inference/python/bindings;/home/jetbot/workspace/jetson-inference/python/bindings/../../utils/python/bindings
+-- NumPy ver. 1.13.3 found (include: /usr/lib/python2.7/dist-packages/numpy/core/include)
+-- found NumPy version:  1.13.3
+-- found NumPy include:  /usr/lib/python2.7/dist-packages/numpy/core/include
+-- detecting Python 3.6...
+-- Python 3.6 wasn't found
+-- detecting Python 3.7...
+-- Python 3.7 wasn't found
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/detectnet.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/imagenet.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/my-detection.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/my-recognition.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/segnet.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/segnet_utils.py
+-- Copying examples/imagenet.py -> imagenet-console.py
+-- Copying examples/imagenet.py -> imagenet-camera.py
+-- Copying examples/detectnet.py -> detectnet-console.py
+-- Copying examples/detectnet.py -> detectnet-camera.py
+-- Copying examples/segnet.py -> segnet-console.py
+-- Copying examples/segnet.py -> segnet-camera.py
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetbot/workspace/jetson-inference/build
+[  1%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaYUV-YV12.cu.o
+[  2%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaColormap.cu.o
+[  3%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaCrop.cu.o
+[  4%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaFilterMode.cu.o
+[  5%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaFont.cu.o
+[  6%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaGrayscale.cu.o
+[  7%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaNormalize.cu.o
+[  8%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaOverlay.cu.o
+[  9%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaPointCloud.cu.o
+[ 10%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaRGB.cu.o
+[ 11%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaResize.cu.o
+[ 12%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaWarp-affine.cu.o
+[ 13%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaWarp-fisheye.cu.o
+[ 14%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaWarp-intrinsic.cu.o
+[ 15%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaYUV-NV12.cu.o
+[ 16%] Building NVCC (Device) object utils/CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaYUV-YUYV.cu.o
+Scanning dependencies of target jetson-utils
+[ 17%] Building CXX object utils/CMakeFiles/jetson-utils.dir/URI.cpp.o
+[ 18%] Building CXX object utils/CMakeFiles/jetson-utils.dir/XML.cpp.o
+[ 19%] Building CXX object utils/CMakeFiles/jetson-utils.dir/commandLine.cpp.o
+[ 20%] Building CXX object utils/CMakeFiles/jetson-utils.dir/filesystem.cpp.o
+[ 21%] Building CXX object utils/CMakeFiles/jetson-utils.dir/logging.cpp.o
+[ 22%] Building CXX object utils/CMakeFiles/jetson-utils.dir/timespec.cpp.o
+[ 23%] Building CXX object utils/CMakeFiles/jetson-utils.dir/camera/gstCamera.cpp.o
+[ 24%] Building CXX object utils/CMakeFiles/jetson-utils.dir/camera/v4l2Camera.cpp.o
+[ 25%] Building CXX object utils/CMakeFiles/jetson-utils.dir/codec/gstDecoder.cpp.o
+[ 26%] Building CXX object utils/CMakeFiles/jetson-utils.dir/codec/gstEncoder.cpp.o
+[ 27%] Building CXX object utils/CMakeFiles/jetson-utils.dir/codec/gstUtility.cpp.o
+[ 28%] Building CXX object utils/CMakeFiles/jetson-utils.dir/cuda/cudaBayer.cpp.o
+[ 29%] Building CXX object utils/CMakeFiles/jetson-utils.dir/cuda/cudaColorspace.cpp.o
+[ 30%] Building CXX object utils/CMakeFiles/jetson-utils.dir/cuda/cudaPointCloud.cpp.o
+[ 31%] Building CXX object utils/CMakeFiles/jetson-utils.dir/display/glBuffer.cpp.o
+[ 32%] Building CXX object utils/CMakeFiles/jetson-utils.dir/display/glCamera.cpp.o
+[ 33%] Building CXX object utils/CMakeFiles/jetson-utils.dir/display/glDisplay.cpp.o
+[ 34%] Building CXX object utils/CMakeFiles/jetson-utils.dir/display/glEvents.cpp.o
+[ 35%] Building CXX object utils/CMakeFiles/jetson-utils.dir/display/glTexture.cpp.o
+[ 36%] Building CXX object utils/CMakeFiles/jetson-utils.dir/display/glWidget.cpp.o
+[ 37%] Building CXX object utils/CMakeFiles/jetson-utils.dir/image/imageIO.cpp.o
+[ 38%] Building CXX object utils/CMakeFiles/jetson-utils.dir/image/imageLoader.cpp.o
+[ 39%] Building CXX object utils/CMakeFiles/jetson-utils.dir/image/imageWriter.cpp.o
+[ 40%] Building CXX object utils/CMakeFiles/jetson-utils.dir/input/devInput.cpp.o
+[ 41%] Building CXX object utils/CMakeFiles/jetson-utils.dir/input/devJoystick.cpp.o
+[ 42%] Building CXX object utils/CMakeFiles/jetson-utils.dir/input/devKeyboard.cpp.o
+[ 43%] Building CXX object utils/CMakeFiles/jetson-utils.dir/network/IPv4.cpp.o
+[ 44%] Building CXX object utils/CMakeFiles/jetson-utils.dir/network/NetworkAdapter.cpp.o
+[ 45%] Building CXX object utils/CMakeFiles/jetson-utils.dir/network/Socket.cpp.o
+[ 46%] Building CXX object utils/CMakeFiles/jetson-utils.dir/threads/Process.cpp.o
+[ 47%] Building CXX object utils/CMakeFiles/jetson-utils.dir/threads/Thread.cpp.o
+[ 48%] Building CXX object utils/CMakeFiles/jetson-utils.dir/video/videoOptions.cpp.o
+[ 49%] Building CXX object utils/CMakeFiles/jetson-utils.dir/video/videoOutput.cpp.o
+[ 50%] Building CXX object utils/CMakeFiles/jetson-utils.dir/video/videoSource.cpp.o
+[ 51%] Linking CXX shared library ../aarch64/lib/libjetson-utils.so
+[ 51%] Built target jetson-utils
+[ 52%] Building NVCC (Device) object CMakeFiles/jetson-inference.dir/c/jetson-inference_generated_tensorConvert.cu.o
+[ 53%] Building NVCC (Device) object CMakeFiles/jetson-inference.dir/c/jetson-inference_generated_detectNet.cu.o
+[ 54%] Building NVCC (Device) object CMakeFiles/jetson-inference.dir/c/jetson-inference_generated_segNet.cu.o
+Scanning dependencies of target jetson-inference
+[ 55%] Building CXX object CMakeFiles/jetson-inference.dir/c/detectNet.cpp.o
+[ 56%] Building CXX object CMakeFiles/jetson-inference.dir/c/imageNet.cpp.o
+[ 57%] Building CXX object CMakeFiles/jetson-inference.dir/c/segNet.cpp.o
+[ 58%] Building CXX object CMakeFiles/jetson-inference.dir/c/tensorNet.cpp.o
+[ 59%] Building CXX object CMakeFiles/jetson-inference.dir/calibration/randInt8Calibrator.cpp.o
+[ 60%] Building CXX object CMakeFiles/jetson-inference.dir/plugins/FlattenConcat.cpp.o
+[ 61%] Linking CXX shared library aarch64/lib/libjetson-inference.so
+[ 61%] Built target jetson-inference
+Scanning dependencies of target imagenet
+[ 62%] Building CXX object examples/imagenet/CMakeFiles/imagenet.dir/imagenet.cpp.o
+[ 63%] Linking CXX executable ../../aarch64/bin/imagenet
+[ 63%] Built target imagenet
+Scanning dependencies of target imagenet-console
+[ 64%] Building CXX object examples/imagenet/CMakeFiles/imagenet-console.dir/imagenet.cpp.o
+[ 65%] Linking CXX executable ../../aarch64/bin/imagenet-console
+[ 65%] Built target imagenet-console
+Scanning dependencies of target imagenet-camera
+[ 66%] Building CXX object examples/imagenet/CMakeFiles/imagenet-camera.dir/imagenet.cpp.o
+[ 67%] Linking CXX executable ../../aarch64/bin/imagenet-camera
+[ 67%] Built target imagenet-camera
+Scanning dependencies of target detectnet-camera
+[ 68%] Building CXX object examples/detectnet/CMakeFiles/detectnet-camera.dir/detectnet.cpp.o
+[ 69%] Linking CXX executable ../../aarch64/bin/detectnet-camera
+[ 69%] Built target detectnet-camera
+Scanning dependencies of target detectnet
+[ 70%] Building CXX object examples/detectnet/CMakeFiles/detectnet.dir/detectnet.cpp.o
+[ 71%] Linking CXX executable ../../aarch64/bin/detectnet
+[ 71%] Built target detectnet
+Scanning dependencies of target detectnet-console
+[ 72%] Building CXX object examples/detectnet/CMakeFiles/detectnet-console.dir/detectnet.cpp.o
+[ 73%] Linking CXX executable ../../aarch64/bin/detectnet-console
+[ 73%] Built target detectnet-console
+Scanning dependencies of target segnet-camera
+[ 74%] Building CXX object examples/segnet/CMakeFiles/segnet-camera.dir/segnet.cpp.o
+[ 75%] Linking CXX executable ../../aarch64/bin/segnet-camera
+[ 75%] Built target segnet-camera
+Scanning dependencies of target segnet
+[ 76%] Building CXX object examples/segnet/CMakeFiles/segnet.dir/segnet.cpp.o
+[ 77%] Linking CXX executable ../../aarch64/bin/segnet
+[ 77%] Built target segnet
+Scanning dependencies of target segnet-console
+[ 78%] Building CXX object examples/segnet/CMakeFiles/segnet-console.dir/segnet.cpp.o
+[ 79%] Linking CXX executable ../../aarch64/bin/segnet-console
+[ 79%] Built target segnet-console
+Scanning dependencies of target camera-viewer
+[ 80%] Building CXX object utils/camera/camera-viewer/CMakeFiles/camera-viewer.dir/camera-viewer.cpp.o
+[ 81%] Linking CXX executable ../../../aarch64/bin/camera-viewer
+[ 81%] Built target camera-viewer
+Scanning dependencies of target video-viewer
+[ 82%] Building CXX object utils/video/video-viewer/CMakeFiles/video-viewer.dir/video-viewer.cpp.o
+[ 83%] Linking CXX executable ../../../aarch64/bin/video-viewer
+[ 83%] Built target video-viewer
+[ 84%] Building NVCC (Device) object utils/display/gl-display-test/CMakeFiles/gl-display-test.dir/gl-display-test_generated_cudaInteropKernels.cu.o
+Scanning dependencies of target gl-display-test
+[ 85%] Building CXX object utils/display/gl-display-test/CMakeFiles/gl-display-test.dir/gl-display-test.cpp.o
+[ 86%] Linking CXX executable ../../../aarch64/bin/gl-display-test
+[ 86%] Built target gl-display-test
+Scanning dependencies of target jetson-utils-python-27
+[ 87%] Building CXX object utils/python/bindings_python_2.7/CMakeFiles/jetson-utils-python-27.dir/PyCUDA.cpp.o
+[ 88%] Building CXX object utils/python/bindings_python_2.7/CMakeFiles/jetson-utils-python-27.dir/PyCamera.cpp.o
+[ 89%] Building CXX object utils/python/bindings_python_2.7/CMakeFiles/jetson-utils-python-27.dir/PyGL.cpp.o
+[ 90%] Building CXX object utils/python/bindings_python_2.7/CMakeFiles/jetson-utils-python-27.dir/PyImageIO.cpp.o
+[ 91%] Building CXX object utils/python/bindings_python_2.7/CMakeFiles/jetson-utils-python-27.dir/PyNumpy.cpp.o
+[ 92%] Building CXX object utils/python/bindings_python_2.7/CMakeFiles/jetson-utils-python-27.dir/PyUtils.cpp.o
+[ 93%] Building CXX object utils/python/bindings_python_2.7/CMakeFiles/jetson-utils-python-27.dir/PyVideo.cpp.o
+[ 94%] Linking CXX shared library ../../../aarch64/lib/python/2.7/jetson_utils_python.so
+[ 94%] Built target jetson-utils-python-27
+Scanning dependencies of target jetson-inference-python-27
+[ 95%] Building CXX object python/bindings_python_2.7/CMakeFiles/jetson-inference-python-27.dir/PyDetectNet.cpp.o
+[ 96%] Building CXX object python/bindings_python_2.7/CMakeFiles/jetson-inference-python-27.dir/PyImageNet.cpp.o
+[ 97%] Building CXX object python/bindings_python_2.7/CMakeFiles/jetson-inference-python-27.dir/PyInference.cpp.o
+[ 98%] Building CXX object python/bindings_python_2.7/CMakeFiles/jetson-inference-python-27.dir/PySegNet.cpp.o
+[ 99%] Building CXX object python/bindings_python_2.7/CMakeFiles/jetson-inference-python-27.dir/PyTensorNet.cpp.o
+[100%] Linking CXX shared library ../../aarch64/lib/python/2.7/jetson_inference_python.so
+[100%] Built target jetson-inference-python-27
+
+Note:  this project uses git submodules in the source tree.
+       if you haven't already, run the following command from
+       the project's root directory:
+
+           git submodule update --init
+
+
+-- using patched FindCUDA.cmake
+-- CUDA version: 10.0
+-- CUDA 10 detected, enabling SM_72
+-- system arch:  aarch64
+-- output path:  /home/jetbot/workspace/jetson-inference/build/aarch64
+-- BUILD_EXPERIMENTAL disabled
+-- Copying /home/jetbot/workspace/jetson-inference/c/detectNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/imageNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/segNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/tensorConvert.h
+-- Copying /home/jetbot/workspace/jetson-inference/c/tensorNet.h
+-- Copying /home/jetbot/workspace/jetson-inference/calibration/randInt8Calibrator.h
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE)
+CMake Warning at tools/camera-capture/CMakeLists.txt:8 (find_package):
+  By not providing "FindQt5.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Qt5", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Qt5" with any of
+  the following names:
+
+    Qt5Config.cmake
+    qt5-config.cmake
+
+  Add the installation prefix of "Qt5" to CMAKE_PREFIX_PATH or set "Qt5_DIR"
+  to a directory containing one of the above files.  If "Qt5" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- camera-capture:  Qt5Widgets package not found, skipping...
+-- camera-capture:  run 'sudo apt-get install qtbase5-dev'
+-- jetson-utils:  building as submodule, /home/jetbot/workspace/jetson-inference
+-- Copying /home/jetbot/workspace/jetson-inference/utils/URI.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/XML.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/alphanum.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/commandLine.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvReader.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvWriter.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/filesystem.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/logging.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/mat33.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/pi.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/rand.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/timespec.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvReader.hpp
+-- Copying /home/jetbot/workspace/jetson-inference/utils/csvWriter.hpp
+-- Copying /home/jetbot/workspace/jetson-inference/utils/camera/gstCamera.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/camera/v4l2Camera.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/codec/gstDecoder.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/codec/gstEncoder.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/codec/gstUtility.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaBayer.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaColormap.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaColorspace.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaCrop.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaFilterMode.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaFont.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaGrayscale.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaMappedMemory.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaMath.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaNormalize.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaOverlay.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaPointCloud.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaRGB.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaResize.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaUtility.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaVector.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaWarp.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaYUV.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaAlphaBlend.cuh
+-- Copying /home/jetbot/workspace/jetson-inference/utils/cuda/cudaFilterMode.cuh
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glBuffer.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glCamera.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glDisplay.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glEvents.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glTexture.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glUtility.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/display/glWidget.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageFormat.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageIO.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageLoader.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageWriter.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/loadImage.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/image/imageFormat.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/input/devInput.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/input/devJoystick.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/input/devKeyboard.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/Endian.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/IPv4.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/NetworkAdapter.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/network/Socket.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Event.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Mutex.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Process.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/RingBuffer.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Thread.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Event.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/Mutex.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/threads/RingBuffer.inl
+-- Copying /home/jetbot/workspace/jetson-inference/utils/video/videoOptions.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/video/videoOutput.h
+-- Copying /home/jetbot/workspace/jetson-inference/utils/video/videoSource.h
+-- trying to build Python bindings for Python versions:  2.7;3.6;3.7
+-- detecting Python 2.7...
+-- found Python version:  2.7 (2.7.17)
+-- found Python include:  /usr/include/python2.7
+-- found Python library:  /usr/lib/aarch64-linux-gnu/libpython2.7.so
+-- CMake module path:  /home/jetbot/workspace/jetson-inference/utils/cuda;/home/jetbot/workspace/jetson-inference/utils/python/bindings
+-- NumPy ver. 1.13.3 found (include: /usr/lib/python2.7/dist-packages/numpy/core/include)
+-- found NumPy version:  1.13.3
+-- found NumPy include:  /usr/lib/python2.7/dist-packages/numpy/core/include
+-- detecting Python 3.6...
+-- Python 3.6 wasn't found
+-- detecting Python 3.7...
+-- Python 3.7 wasn't found
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/camera-viewer.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-examples.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-from-cv.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-from-numpy.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-to-cv.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/cuda-to-numpy.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/gl-display-test.py
+-- Copying /home/jetbot/workspace/jetson-inference/utils/python/examples/video-viewer.py
+-- trying to build Python bindings for Python versions:  2.7;3.6;3.7
+-- detecting Python 2.7...
+-- found Python version:  2.7 (2.7.17)
+-- found Python include:  /usr/include/python2.7
+-- found Python library:  /usr/lib/aarch64-linux-gnu/libpython2.7.so
+-- CMake module path:  /home/jetbot/workspace/jetson-inference/utils/cuda;/home/jetbot/workspace/jetson-inference/python/bindings;/home/jetbot/workspace/jetson-inference/python/bindings/../../utils/python/bindings
+-- NumPy ver. 1.13.3 found (include: /usr/lib/python2.7/dist-packages/numpy/core/include)
+-- found NumPy version:  1.13.3
+-- found NumPy include:  /usr/lib/python2.7/dist-packages/numpy/core/include
+-- detecting Python 3.6...
+-- Python 3.6 wasn't found
+-- detecting Python 3.7...
+-- Python 3.7 wasn't found
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/detectnet.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/imagenet.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/my-detection.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/my-recognition.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/segnet.py
+-- Copying /home/jetbot/workspace/jetson-inference/python/examples/segnet_utils.py
+-- Copying examples/imagenet.py -> imagenet-console.py
+-- Copying examples/imagenet.py -> imagenet-camera.py
+-- Copying examples/detectnet.py -> detectnet-console.py
+-- Copying examples/detectnet.py -> detectnet-camera.py
+-- Copying examples/segnet.py -> segnet-console.py
+-- Copying examples/segnet.py -> segnet-camera.py
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetbot/workspace/jetson-inference/build
+[  1%] Linking CXX shared library ../aarch64/lib/libjetson-utils.so
+[ 51%] Built target jetson-utils
+[ 52%] Linking CXX shared library aarch64/lib/libjetson-inference.so
+[ 61%] Built target jetson-inference
+[ 62%] Linking CXX executable ../../aarch64/bin/imagenet
+[ 63%] Built target imagenet
+[ 64%] Linking CXX executable ../../aarch64/bin/imagenet-console
+[ 65%] Built target imagenet-console
+[ 66%] Linking CXX executable ../../aarch64/bin/imagenet-camera
+[ 67%] Built target imagenet-camera
+[ 68%] Linking CXX executable ../../aarch64/bin/detectnet-camera
+[ 69%] Built target detectnet-camera
+[ 70%] Linking CXX executable ../../aarch64/bin/detectnet
+[ 71%] Built target detectnet
+[ 72%] Linking CXX executable ../../aarch64/bin/detectnet-console
+[ 73%] Built target detectnet-console
+[ 74%] Linking CXX executable ../../aarch64/bin/segnet-camera
+[ 75%] Built target segnet-camera
+[ 76%] Linking CXX executable ../../aarch64/bin/segnet
+[ 77%] Built target segnet
+[ 78%] Linking CXX executable ../../aarch64/bin/segnet-console
+[ 79%] Built target segnet-console
+[ 80%] Linking CXX executable ../../../aarch64/bin/camera-viewer
+[ 81%] Built target camera-viewer
+[ 82%] Linking CXX executable ../../../aarch64/bin/video-viewer
+[ 83%] Built target video-viewer
+[ 84%] Linking CXX executable ../../../aarch64/bin/gl-display-test
+[ 86%] Built target gl-display-test
+[ 87%] Linking CXX shared library ../../../aarch64/lib/python/2.7/jetson_utils_python.so
+[ 94%] Built target jetson-utils-python-27
+[ 95%] Linking CXX shared library ../../aarch64/lib/python/2.7/jetson_inference_python.so
+[100%] Built target jetson-inference-python-27
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/include/jetson-inference/detectNet.h
+-- Installing: /usr/local/include/jetson-inference/imageNet.h
+-- Installing: /usr/local/include/jetson-inference/segNet.h
+-- Installing: /usr/local/include/jetson-inference/tensorConvert.h
+-- Installing: /usr/local/include/jetson-inference/tensorNet.h
+-- Installing: /usr/local/include/jetson-inference/randInt8Calibrator.h
+-- Installing: /usr/local/lib/libjetson-inference.so
+-- Set runtime path of "/usr/local/lib/libjetson-inference.so" to ""
+-- Installing: /usr/local/share/jetson-inference/cmake/jetson-inferenceConfig.cmake
+-- Installing: /usr/local/share/jetson-inference/cmake/jetson-inferenceConfig-noconfig.cmake
+-- Installing: /usr/local/bin/imagenet
+-- Set runtime path of "/usr/local/bin/imagenet" to ""
+-- Installing: /usr/local/bin/imagenet-camera
+-- Set runtime path of "/usr/local/bin/imagenet-camera" to ""
+-- Installing: /usr/local/bin/imagenet-console
+-- Set runtime path of "/usr/local/bin/imagenet-console" to ""
+-- Installing: /usr/local/bin/detectnet
+-- Set runtime path of "/usr/local/bin/detectnet" to ""
+-- Installing: /usr/local/bin/detectnet-camera
+-- Set runtime path of "/usr/local/bin/detectnet-camera" to ""
+-- Installing: /usr/local/bin/detectnet-console
+-- Set runtime path of "/usr/local/bin/detectnet-console" to ""
+-- Installing: /usr/local/bin/segnet
+-- Set runtime path of "/usr/local/bin/segnet" to ""
+-- Installing: /usr/local/bin/segnet-camera
+-- Set runtime path of "/usr/local/bin/segnet-camera" to ""
+-- Installing: /usr/local/bin/segnet-console
+-- Set runtime path of "/usr/local/bin/segnet-console" to ""
+-- Installing: /usr/local/include/jetson-utils/URI.h
+-- Installing: /usr/local/include/jetson-utils/XML.h
+-- Installing: /usr/local/include/jetson-utils/alphanum.h
+-- Installing: /usr/local/include/jetson-utils/commandLine.h
+-- Installing: /usr/local/include/jetson-utils/csvReader.h
+-- Installing: /usr/local/include/jetson-utils/csvWriter.h
+-- Installing: /usr/local/include/jetson-utils/filesystem.h
+-- Installing: /usr/local/include/jetson-utils/logging.h
+-- Installing: /usr/local/include/jetson-utils/mat33.h
+-- Installing: /usr/local/include/jetson-utils/pi.h
+-- Installing: /usr/local/include/jetson-utils/rand.h
+-- Installing: /usr/local/include/jetson-utils/timespec.h
+-- Installing: /usr/local/include/jetson-utils/csvReader.hpp
+-- Installing: /usr/local/include/jetson-utils/csvWriter.hpp
+-- Installing: /usr/local/include/jetson-utils/gstCamera.h
+-- Installing: /usr/local/include/jetson-utils/v4l2Camera.h
+-- Installing: /usr/local/include/jetson-utils/gstDecoder.h
+-- Installing: /usr/local/include/jetson-utils/gstEncoder.h
+-- Installing: /usr/local/include/jetson-utils/gstUtility.h
+-- Installing: /usr/local/include/jetson-utils/cudaBayer.h
+-- Installing: /usr/local/include/jetson-utils/cudaColormap.h
+-- Installing: /usr/local/include/jetson-utils/cudaColorspace.h
+-- Installing: /usr/local/include/jetson-utils/cudaCrop.h
+-- Installing: /usr/local/include/jetson-utils/cudaFilterMode.h
+-- Installing: /usr/local/include/jetson-utils/cudaFont.h
+-- Installing: /usr/local/include/jetson-utils/cudaGrayscale.h
+-- Installing: /usr/local/include/jetson-utils/cudaMappedMemory.h
+-- Installing: /usr/local/include/jetson-utils/cudaMath.h
+-- Installing: /usr/local/include/jetson-utils/cudaNormalize.h
+-- Installing: /usr/local/include/jetson-utils/cudaOverlay.h
+-- Installing: /usr/local/include/jetson-utils/cudaPointCloud.h
+-- Installing: /usr/local/include/jetson-utils/cudaRGB.h
+-- Installing: /usr/local/include/jetson-utils/cudaResize.h
+-- Installing: /usr/local/include/jetson-utils/cudaUtility.h
+-- Installing: /usr/local/include/jetson-utils/cudaVector.h
+-- Installing: /usr/local/include/jetson-utils/cudaWarp.h
+-- Installing: /usr/local/include/jetson-utils/cudaYUV.h
+-- Installing: /usr/local/include/jetson-utils/cudaAlphaBlend.cuh
+-- Installing: /usr/local/include/jetson-utils/cudaFilterMode.cuh
+-- Installing: /usr/local/include/jetson-utils/glBuffer.h
+-- Installing: /usr/local/include/jetson-utils/glCamera.h
+-- Installing: /usr/local/include/jetson-utils/glDisplay.h
+-- Installing: /usr/local/include/jetson-utils/glEvents.h
+-- Installing: /usr/local/include/jetson-utils/glTexture.h
+-- Installing: /usr/local/include/jetson-utils/glUtility.h
+-- Installing: /usr/local/include/jetson-utils/glWidget.h
+-- Installing: /usr/local/include/jetson-utils/imageFormat.h
+-- Installing: /usr/local/include/jetson-utils/imageIO.h
+-- Installing: /usr/local/include/jetson-utils/imageLoader.h
+-- Installing: /usr/local/include/jetson-utils/imageWriter.h
+-- Installing: /usr/local/include/jetson-utils/loadImage.h
+-- Installing: /usr/local/include/jetson-utils/imageFormat.inl
+-- Installing: /usr/local/include/jetson-utils/devInput.h
+-- Installing: /usr/local/include/jetson-utils/devJoystick.h
+-- Installing: /usr/local/include/jetson-utils/devKeyboard.h
+-- Installing: /usr/local/include/jetson-utils/Endian.h
+-- Installing: /usr/local/include/jetson-utils/IPv4.h
+-- Installing: /usr/local/include/jetson-utils/NetworkAdapter.h
+-- Installing: /usr/local/include/jetson-utils/Socket.h
+-- Installing: /usr/local/include/jetson-utils/Event.h
+-- Installing: /usr/local/include/jetson-utils/Mutex.h
+-- Installing: /usr/local/include/jetson-utils/Process.h
+-- Installing: /usr/local/include/jetson-utils/RingBuffer.h
+-- Installing: /usr/local/include/jetson-utils/Thread.h
+-- Installing: /usr/local/include/jetson-utils/Event.inl
+-- Installing: /usr/local/include/jetson-utils/Mutex.inl
+-- Installing: /usr/local/include/jetson-utils/RingBuffer.inl
+-- Installing: /usr/local/include/jetson-utils/videoOptions.h
+-- Installing: /usr/local/include/jetson-utils/videoOutput.h
+-- Installing: /usr/local/include/jetson-utils/videoSource.h
+-- Installing: /usr/local/lib/libjetson-utils.so
+-- Set runtime path of "/usr/local/lib/libjetson-utils.so" to ""
+-- Installing: /usr/local/share/jetson-utils/cmake/jetson-utilsConfig.cmake
+-- Installing: /usr/local/share/jetson-utils/cmake/jetson-utilsConfig-noconfig.cmake
+-- Installing: /usr/local/bin/camera-viewer
+-- Set runtime path of "/usr/local/bin/camera-viewer" to ""
+-- Installing: /usr/local/bin/video-viewer
+-- Set runtime path of "/usr/local/bin/video-viewer" to ""
+-- Installing: /usr/local/bin/gl-display-test
+-- Set runtime path of "/usr/local/bin/gl-display-test" to ""
+-- Installing: /usr/local/bin/camera-viewer.py
+-- Installing: /usr/local/bin/cuda-examples.py
+-- Installing: /usr/local/bin/cuda-from-cv.py
+-- Installing: /usr/local/bin/cuda-from-numpy.py
+-- Installing: /usr/local/bin/cuda-to-cv.py
+-- Installing: /usr/local/bin/cuda-to-numpy.py
+-- Installing: /usr/local/bin/gl-display-test.py
+-- Installing: /usr/local/bin/video-viewer.py
+-- Installing: /usr/lib/python2.7/dist-packages/jetson_utils_python.so
+-- Set runtime path of "/usr/lib/python2.7/dist-packages/jetson_utils_python.so" to ""
+-- Up-to-date: /usr/lib/python2.7/dist-packages/Jetson
+-- Installing: /usr/lib/python2.7/dist-packages/Jetson/Utils
+-- Installing: /usr/lib/python2.7/dist-packages/Jetson/Utils/__init__.py
+-- Installing: /usr/lib/python2.7/dist-packages/Jetson/__init__.py
+-- Installing: /usr/lib/python2.7/dist-packages/jetson
+-- Installing: /usr/lib/python2.7/dist-packages/jetson/utils
+-- Installing: /usr/lib/python2.7/dist-packages/jetson/utils/__init__.py
+-- Installing: /usr/lib/python2.7/dist-packages/jetson/__init__.py
+-- Installing: /usr/local/bin/detectnet.py
+-- Installing: /usr/local/bin/imagenet.py
+-- Installing: /usr/local/bin/my-detection.py
+-- Installing: /usr/local/bin/my-recognition.py
+-- Installing: /usr/local/bin/segnet.py
+-- Installing: /usr/local/bin/segnet_utils.py
+-- Installing: /usr/local/bin/imagenet-console.py
+-- Installing: /usr/local/bin/imagenet-camera.py
+-- Installing: /usr/local/bin/detectnet-console.py
+-- Installing: /usr/local/bin/detectnet-camera.py
+-- Installing: /usr/local/bin/segnet-console.py
+-- Installing: /usr/local/bin/segnet-camera.py
+-- Installing: /usr/lib/python2.7/dist-packages/jetson_inference_python.so
+-- Set runtime path of "/usr/lib/python2.7/dist-packages/jetson_inference_python.so" to ""
+-- Up-to-date: /usr/lib/python2.7/dist-packages/Jetson
+-- Installing: /usr/lib/python2.7/dist-packages/Jetson/Inference
+-- Installing: /usr/lib/python2.7/dist-packages/Jetson/Inference/__init__.py
+-- Installing: /usr/lib/python2.7/dist-packages/Jetson/__init__.py
+-- Up-to-date: /usr/lib/python2.7/dist-packages/jetson
+-- Installing: /usr/lib/python2.7/dist-packages/jetson/inference
+-- Installing: /usr/lib/python2.7/dist-packages/jetson/inference/__init__.py
+-- Installing: /usr/lib/python2.7/dist-packages/jetson/__init__.py
+- Install and Build ros_deep_learning
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ ros-melodic-image-publisher : Depends: ros-melodic-camera-info-manager but it is not going to be installed
+                               Depends: ros-melodic-cv-bridge but it is not going to be installed
+                               Depends: ros-melodic-dynamic-reconfigure but it is not going to be installed
+                               Depends: ros-melodic-nodelet but it is not going to be installed
+                               Depends: ros-melodic-roscpp but it is not going to be installed
+                               Depends: ros-melodic-sensor-msgs but it is not going to be installed
+ ros-melodic-image-transport : Depends: ros-melodic-message-filters but it is not going to be installed
+                               Depends: ros-melodic-pluginlib but it is not going to be installed
+                               Depends: ros-melodic-rosconsole but it is not going to be installed
+                               Depends: ros-melodic-roscpp but it is not going to be installed
+                               Depends: ros-melodic-roslib but it is not going to be installed
+                               Depends: ros-melodic-sensor-msgs but it is not going to be installed
+ ros-melodic-vision-msgs : Depends: ros-melodic-geometry-msgs but it is not going to be installed
+                           Depends: ros-melodic-message-runtime but it is not going to be installed
+                           Depends: ros-melodic-sensor-msgs but it is not going to be installed
+                           Depends: ros-melodic-std-msgs but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+Cloning into 'ros_deep_learning'...
+remote: Enumerating objects: 325, done.
+remote: Total 325 (delta 0), reused 0 (delta 0), pack-reused 325
+Receiving objects: 100% (325/325), 78.34 KiB | 871.00 KiB/s, done.
+Resolving deltas: 100% (190/190), done.
+./install_jetbot_ros.sh: line 160: catkin_make: command not found
+./install_jetbot_ros.sh: line 163: rospack: command not found
+./install_jetbot_ros.sh: line 164: /home/nvidia/workspace/catkin_ws/src/ros_deep_learning: No such file or directory
+- Install and Build jetbot_ros
+Cloning into 'jetbot_ros'...
+remote: Enumerating objects: 160, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 160 (delta 0), reused 0 (delta 0), pack-reused 159
+Receiving objects: 100% (160/160), 6.97 MiB | 2.26 MiB/s, done.
+Resolving deltas: 100% (79/79), done.
+./install_jetbot_ros.sh: line 179: catkin_make: command not found
+./install_jetbot_ros.sh: line 182: rospack: command not found
+./install_jetbot_ros.sh: line 183: /home/nvidia/workspace/catkin_ws/src/jetbot_ros: No such file or directory
+
+
+Run AWS Greengrass Installation Script
+Install AWS Greengrass
+Adding system user `ggc_user' (UID 125) ...
+Adding new user `ggc_user' (UID 125) with group `nogroup' ...
+Creating home directory `/home/ggc_user' ...
+Adding group `ggc_group' (GID 131) ...
+Done.
+--2021-06-16 12:24:59--  https://github.com/aws-samples/aws-greengrass-samples/raw/master/greengrass-dependency-checker-GGCv1.9.x.zip
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/aws-samples/aws-greengrass-samples/master/greengrass-dependency-checker-GGCv1.9.x.zip [following]
+--2021-06-16 12:24:59--  https://raw.githubusercontent.com/aws-samples/aws-greengrass-samples/master/greengrass-dependency-checker-GGCv1.9.x.zip
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21108 (21K) [application/zip]
+Saving to: ‘greengrass-dependency-checker-GGCv1.9.x.zip’
+
+greengrass-dependen 100%[===================>]  20.61K  --.-KB/s    in 0.004s
+
+2021-06-16 12:24:59 (5.23 MB/s) - ‘greengrass-dependency-checker-GGCv1.9.x.zip’ saved [21108/21108]
+
+Archive:  greengrass-dependency-checker-GGCv1.9.x.zip
+   creating: greengrass-dependency-checker-GGCv1.9.x/
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_system_configs.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_cgroups.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_ggc_dependencies
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_sw_packages.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/README.md
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_script_dependencies.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_kernel_configs.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/string_utils.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_container_dependencies.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/check_ggc_user_and_group.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/log_utils.sh
+  inflating: greengrass-dependency-checker-GGCv1.9.x/validate_platform_security.sh
+sudo: ./check_ggc_dependencies: command not found
+The system user `ggc_user' already exists. Exiting.
+addgroup: The group `ggc_group' already exists as a system group. Exiting.
+--2021-06-16 12:24:59--  https://d1onfpft10uf5o.cloudfront.net/greengrass-core/downloads/1.9.2/greengrass-linux-aarch64-1.9.2.tar.gz
+Resolving d1onfpft10uf5o.cloudfront.net (d1onfpft10uf5o.cloudfront.net)... 143.204.25.71, 143.204.25.142, 143.204.25.168, ...
+Connecting to d1onfpft10uf5o.cloudfront.net (d1onfpft10uf5o.cloudfront.net)|143.204.25.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12283870 (12M) [application/x-gzip]
+Saving to: ‘greengrass-linux-aarch64-1.9.2.tar.gz’
+
+greengrass-linux-aa 100%[===================>]  11.71M  52.2MB/s    in 0.2s
+
+2021-06-16 12:25:00 (52.2 MB/s) - ‘greengrass-linux-aarch64-1.9.2.tar.gz’ saved [12283870/12283870]
+
+.
+greengrass
+greengrass/certs
+greengrass/certs/README
+greengrass/config
+greengrass/config/config.json
+greengrass/ggc
+greengrass/ggc/core
+greengrass/ggc/packages
+greengrass/ggc/packages/1.9.2
+greengrass/ggc/packages/1.9.2/.build
+greengrass/ggc/packages/1.9.2/LICENSE
+greengrass/ggc/packages/1.9.2/THIRD-PARTY-LICENSES
+greengrass/ggc/packages/1.9.2/bin
+greengrass/ggc/packages/1.9.2/bin/daemon
+greengrass/ggc/packages/1.9.2/greengrassd
+greengrass/ggc/packages/1.9.2/lambda
+greengrass/ggc/packages/1.9.2/lambda/GreengrassSystemComponents
+greengrass/ggc/packages/1.9.2/lambda/GreengrassSystemComponents/greengrassSystemComponents
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGCanary.1
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGCloudSpooler.1
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGConnManager
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGDeviceCertificateManager
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGIPDetector.1
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGIPDetector.1/ipdetector
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGSecretManager.1
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGShadowService
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGShadowSyncManager
+greengrass/ggc/packages/1.9.2/lambda/arn.aws.lambda...function.GGTES
+greengrass/ggc/packages/1.9.2/release_notes_1_9_2.html
+greengrass/ggc/packages/1.9.2/runtime
+greengrass/ggc/packages/1.9.2/runtime/executable
+greengrass/ggc/packages/1.9.2/runtime/executable/libaws-greengrass-core-sdk-c.so
+greengrass/ggc/packages/1.9.2/runtime/java8
+greengrass/ggc/packages/1.9.2/runtime/java8/aws-greengrass-ipc-java-sdk-1.0.jar
+greengrass/ggc/packages/1.9.2/runtime/java8/aws-greengrass-java-common-1.0.jar
+greengrass/ggc/packages/1.9.2/runtime/java8/aws-greengrass-java-lambda-runtime-1.0.jar
+greengrass/ggc/packages/1.9.2/runtime/nodejs
+greengrass/ggc/packages/1.9.2/runtime/nodejs/lambda_nodejs_runtime.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/config.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/encodingType.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/envVars.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/functionArnFields.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/index.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/localWatchLogger.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/retry.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-common-js/versionParser.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-ipc-sdk-js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-ipc-sdk-js/index.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/node_modules/aws-greengrass-ipc-sdk-js/ipcclient.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/redirect.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/start.js
+greengrass/ggc/packages/1.9.2/runtime/nodejs/try.js
+greengrass/ggc/packages/1.9.2/runtime/python
+greengrass/ggc/packages/1.9.2/runtime/python/__init__.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common/__init__.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common/common_log_appender.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common/encoding_type.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common/env_vars.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common/function_arn_fields.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common/greengrass_message.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_common/parse_version.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/__init__.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/ipc_client.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/ipc_facade
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/ipc_facade/__init__.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/ipc_facade/client.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/utils
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/utils/__init__.py
+greengrass/ggc/packages/1.9.2/runtime/python/greengrass_ipc_python_sdk/utils/exponential_backoff.py
+greengrass/ggc/packages/1.9.2/runtime/python/lambda_runtime.py
+greengrass/ota
+greengrass/ota/ota_agent
+greengrass/ota/ota_agent_v1.1.1
+greengrass/ota/ota_agent_v1.1.1/LICENSE
+greengrass/ota/ota_agent_v1.1.1/LICENSE/LICENSE
+greengrass/ota/ota_agent_v1.1.1/LICENSE/THIRD-PARTY-LICENSES
+greengrass/ota/ota_agent_v1.1.1/ggc-ota
+jetbot@jetbot:~/sparkfun_jetbot_setup$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+ls
+git clone -b v0.4.3 https://github.com/NVIDIA-AI-IOT/jetbot
+ls
+cd jetbot/
+ls
+caat scripts/configure_jetson.sh
+cat scripts/configure_jetson.sh
+./scripts/configure_jetson.sh
+cat scripts/configure_jetson.sh
+./scripts/enable_swap.sh
+top
+ls
+cd docker/
+ls
+vim configure.sh
+./configure.sh
+vim configure.sh
+git status
+sudo docker login nvcr.io
+exit
+ls
+cd jetbot/
+sudo docker login nvcr.io
+ls
+cd docker/
+ls
+vim configure.sh
+./configure.sh
+export JETBOT_BASE_IMAGE=nvcr.io/ea-linux4tegra/l4t-pytorch:r32.5.0-pth1.7-py3
+ls
+cat configure.sh
+./build.sh
+ls
+echo $JETBOT_VERSION
+source configure.sh
+echo $JETBOT_VERSION
+export JETBOT_BASE_IMAGE=nvcr.io/ea-linux4tegra/l4t-pytorch:r32.5.0-pth1.7-py3
+./build.sh
+ls
+./build.sh
+ls
+nvim build.sh
+ls
+./enable.sh
+sudo docker ps
+sudo docker login
+./push.sh
+sudo docker logout
+sudo docker logout nvcr.io
+cd
+sudo docker ps
+top
+sudo reboot now
+ls
+cd
+git clone https://github.com/NVIDIA-AI-IOT/jetcard
+cd jetcard/
+git checkout jetpack_4.4
+sudo docker ps
+sudo docker logout
+sudo docker logout nvcr.io
+ls
+cd
+cd jet
+cd jetbot/
+ls
+cd scripts/
+cat configure_jetson.sh
+cd ..
+cat scripts/configure_jetson.sh
+./scripts/configure_jetson.sh
+top
+ls
+cd ..
+ls
+sudo docker stats
+ls
+cd jetcard/
+ls
+./scripts/jetson_install_nvresizefs_service.sh
+cd
+rm -rf jetcard/
+history
+sudo shutdown -h now
+
