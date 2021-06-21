@@ -142,7 +142,7 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 
 # Rebuild Docker Containers
 #==================================================================================
-echo -e "\e[1;32mDownload Models\e[0m"
+echo -e "\e[1;32mRebuild and Install New Docker Containers\e[0m"
 
 # Build New Docker Container
 #----------------------------------------------------------------------------------
