@@ -1,0 +1,27 @@
+ls
+sudo apt-get update
+sudo apt-get upgrade
+git clone https://github.com/NVIDIA-AI-IOT/jetbot
+cd jetbot/
+ls
+git checkout v0.4.3
+cat ./docs/software_setup/docker.md
+./scripts/configure_jetson.sh && ./scripts/enable_swap.sh && cd docker/
+./enable.sh $HOME
+ls
+cd ../
+git clone https://github.com/NVIDIA-AI-IOT/jetcard
+cd jetcard/
+ls
+./scripts/jetson_install_nvresizefs_service.sh
+history
+history -a
+sudo shutdown -h now
+sudo apt-get update
+sudo apt-get upgrade
+git clone https://github.com/NVIDIA-AI-IOT/jetbot
+cd jetbot
+git clone https://github.com/NVIDIA-AI-IOT/jetbot
+ifconfig
+sudo nmcli device wifi connect Deco_One password WhiteSaturn2048
+ifconfig
