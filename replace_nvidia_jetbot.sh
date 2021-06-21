@@ -103,6 +103,7 @@ echo -e "\e[1;33m- Replace Jetbot Installation\e[0m"
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Clone New Jetbot Repository\e[0m"
 cd && git clone https://github.com/santaimpersonator/jetbot.git
+# cd && git clone -b original_nvidia_scripts_test https://github.com/santaimpersonator/jetbot.git
 
 
 # Install New jetbot Python Module
