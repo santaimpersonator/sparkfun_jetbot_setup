@@ -149,7 +149,11 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 
 # Rebuild Docker Containers
 #==================================================================================
-echo -e "\e[1;32mConfigure the Environment Variables\e[0m"
+echo -e "\e[1;32mRebuild and Install New Docker Containers\e[0m"
+
+# Configure the Environment Variables
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Configure the Environment Variables\e[0m"
 cd ~/jetbot/docker && source configure.sh
 
 # Build New Docker Container
