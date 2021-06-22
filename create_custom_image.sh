@@ -37,6 +37,11 @@
 # clear
 echo -e "\n\e[1;32mConfigure Custom Jetbot Image\e[0m"
 
+# Remove Carriage Returns and Add Permissions
+echo -e "\e[100mRun Partition Expansion Script\e[0m"
+sed -i 's/\r$//' nvresizefs.sh
+sudo bash nvresizefs.sh
+
 # Remove carriage returns
 sed -i 's/\r$//' install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
 
@@ -55,8 +60,8 @@ sudo apt-add-repository multiverse
 sudo apt-add-repository restricted
 
 # # Install htop, nano, and dkms
-echo -e "\e[1;33m- - Install htop, nano, and dkms\e[0m"
-sudo apt-get install htop nano dkms
+echo -e "\e[1;33m- - Install htop, nano, ipython3, pip3, and dkms\e[0m"
+sudo apt-get install htop nano ipython3 dkms python3-pip
 
 
 # Install Edimax WiFi Driver:

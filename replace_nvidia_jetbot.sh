@@ -40,8 +40,8 @@ sed -i 's/\r$//' nvresizefs.sh
 sudo bash nvresizefs.sh
 
 # Install pip3
-echo -e "\e[100mInstall pip3 htop nano\e[0m"
-sudo apt-get install python3-pip nano htop
+echo -e "\e[100mInstall pip3 htop nano ipython3\e[0m"
+sudo apt-get install python3-pip nano htop ipython3
 
 # Install jtop
 echo -e "\e[100mInstall jtop\e[0m"
