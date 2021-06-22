@@ -34,6 +34,11 @@
 #==================================================================================
 #==================================================================================
 
+# Remove Carriage Returns and Add Permissions
+echo -e "\e[100mRun Partition Expansion Script\e[0m"
+sed -i 's/\r$//' nvresizefs.sh
+chmod +x nvresizefs.sh
+
 # Install pip3
 echo -e "\e[100mInstall pip3 htop nano\e[0m"
 sudo apt-get install python3-pip nano htop
@@ -41,12 +46,6 @@ sudo apt-get install python3-pip nano htop
 # Install jtop
 echo -e "\e[100mInstall jtop\e[0m"
 sudo -H pip3 install jetson-stats 
-
-# Remove Carriage Returns and Add Permissions
-echo -e "\e[100mRun Partition Expansion Script\e[0m"
-sed -i 's/\r$//' nvresizefs.sh
-chmod +x nvresizefs.sh
-
 
 # Replace Nvidia Jetbot Installation
 #==================================================================================
