@@ -73,6 +73,7 @@ cd && sudo rm -rf Notebooks
 # Uninstall jetbot Python Package
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Uninstall jetbot Python Package\e[0m"
+sudo pip3 uninstall jetbot
 pip3 uninstall jetbot
 
 # Stop and Delete jetbot Services
