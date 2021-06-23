@@ -38,15 +38,16 @@
 echo -e "\n\e[1;32mConfigure Custom Jetbot Image\e[0m"
 
 # Remove Carriage Returns and Add Permissions
-echo -e "\e[100mRun Partition Expansion Script\e[0m"
+echo -e "\e[100mRemove Carriage Returns and Add Permissions\e[0m"
 sed -i 's/\r$//' nvresizefs.sh
-sudo bash nvresizefs.sh
-
-# Remove carriage returns
 sed -i 's/\r$//' install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
 
 echo -e "\e[1;33m- Adding File Permissions\e[0m"
 chmod +x install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
+
+# Expand Partition to Fill SD Cards Space
+echo -e "\e[100mRun Partition Expansion Script\e[0m"
+sudo bash nvresizefs.sh
 
 # Download Package Information
 echo -e "\e[1;33m- Download Package Information\e[0m"
