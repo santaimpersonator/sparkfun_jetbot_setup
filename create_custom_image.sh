@@ -99,6 +99,18 @@ echo -e "\n\n\e[0;37mRun AWS Greengrass Installation Script\e[0m"
 
 
 
+# Uninstall LibreOffice
+#==================================================================================
+echo -e "\n\n\e[0;37mUninstall LibreOffice\e[0m"
+sudo apt-get remove --purge -y libreoffice*
+sudo apt-get clean
+
+# Clear Package Information
+echo -e "\e[1;33m- Clear Package Information\e[0m"
+sudo apt-get -y autoremove
+
+
+
 # DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 # ${DIR}/create-sdcard-image-from-scratch.sh\
 
