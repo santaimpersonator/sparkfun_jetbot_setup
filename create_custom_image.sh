@@ -120,9 +120,9 @@ sudo apt-get -y autoremove
 
 # # Resize partition
 # # resize2fs -p '<drive>' <size>
-# e2fsck -f -y -v -C 0'/dev/mmcblk0p1'
+# e2fsck -f -y -v -C 0 '/dev/mmcblk0p1'
 # # resize2fs -p '/dev/mmcblk0p1' 19968000K
-# resize2fs -p '/dev/mmcblk0p1' 20000000K
+# resize2fs -p '/dev/mmcblk0p1' 30720000K
 
 # Clear Terminal History/Buffer
 #==================================================================================
