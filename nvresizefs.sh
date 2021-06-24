@@ -82,4 +82,4 @@ partprobe /dev/mmcblk0
 resize2fs /dev/mmcblk0p1
 
 # Clean up
-cleanup
+# cleanup

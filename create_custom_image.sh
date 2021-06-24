@@ -62,7 +62,7 @@ sudo apt-add-repository restricted
 
 # # Install htop, nano, and dkms
 echo -e "\e[1;33m- - Install htop, nano, ipython3, pip3, and dkms\e[0m"
-sudo apt-get install htop nano ipython3 dkms python3-pip
+sudo apt-get -y install htop nano ipython3 dkms python3-pip
 
 
 # Install Edimax WiFi Driver:

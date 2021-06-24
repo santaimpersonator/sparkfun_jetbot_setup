@@ -41,11 +41,11 @@ sudo bash nvresizefs.sh
 
 # Install pip3
 echo -e "\e[100mInstall pip3 htop nano ipython3\e[0m"
-sudo apt-get install python3-pip nano htop ipython3
+sudo apt-get install -y python3-pip nano htop ipython3
 
 # Install jtop
 echo -e "\e[100mInstall jtop\e[0m"
-sudo -H pip3 -U install jetson-stats 
+sudo -H pip3 install -U jetson-stats 
 
 # Replace Nvidia Jetbot Installation
 #==================================================================================
@@ -91,8 +91,8 @@ sudo rm -rf /etc/systemd/system/jetbot_stats.service
 sudo rm -rf /etc/systemd/system/jetbot_jupyter.service
 
 # Reload and Reset List
-systemctl daemon-reload
-systemctl reset-failed
+sudo systemctl daemon-reload
+sudo systemctl reset-failed
 
 
 # Replace Jetbot Installation

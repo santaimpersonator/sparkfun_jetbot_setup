@@ -54,7 +54,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 
 # install ROS Base
 sudo apt-get update
-sudo apt-get install ros-melodic-ros-base
+sudo apt-get install -y ros-melodic-ros-base
 
 # add ROS paths to environment
 sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
@@ -124,7 +124,7 @@ echo $ROS_PACKAGE_PATH
 echo -e "\e[1;33m- Install and Build jetson-inference\e[0m"
 
 # git and cmake should be installed
-sudo apt-get install git cmake
+sudo apt-get install -y git cmake
 
 # clone the repo and submodules
 cd ~/workspace
@@ -149,7 +149,7 @@ sudo make install
 echo -e "\e[1;33m- Install and Build ros_deep_learning\e[0m"
 
 # install dependencies
-sudo apt-get install ros-melodic-vision-msgs ros-melodic-image-transport ros-melodic-image-publisher
+sudo apt-get install -y ros-melodic-vision-msgs ros-melodic-image-transport ros-melodic-image-publisher
 
 # clone the repo
 cd ~/workspace/catkin_ws/src

@@ -40,10 +40,10 @@
 echo -e "\e[1;32mInstall Jetbot\e[0m"
 
 # Clone Jetbot Repository
-echo -e "\e[1;33m- Clone Jetbot Repository\e[0m"
-cd
-git clone https://github.com/NVIDIA-AI-IOT/jetbot
-# git clone https://github.com/santaimpersonator/jetbot
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Clone Jetbot Repository\e[0m"
+cd && git clone https://github.com/santaimpersonator/jetbot.git
+# git clone https://github.com/NVIDIA-AI-IOT/jetbot
 
 # Run configuration scripts
 cd jetbot/scripts
@@ -83,6 +83,35 @@ echo -e "\e[1;33m- Run configure_jetson.sh script\e[0m"
 ./configure_jetson.sh
 
 
+
+
+
+
+
+# Install New jetbot Python Module
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Install New jetbot Python Module\e[0m"
+cd ~/jetbot && sudo python3 setup.py install 
+
+# Install New jetbot Services
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Install New jetbot Services\e[0m"
+cd jetbot/utils
+python3 create_stats_service.py
+sudo mv jetbot_stats.service /etc/systemd/system/jetbot_stats.service
+sudo systemctl enable jetbot_stats
+sudo systemctl start jetbot_stats
+python3 create_jupyter_service.py
+sudo mv jetbot_jupyter.service /etc/systemd/system/jetbot_jupyter.service
+sudo systemctl enable jetbot_jupyter
+sudo systemctl start jetbot_jupyter
+
+# Copy JetBot notebooks to home Directory
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Copy New JetBot Notebooks\e[0m"
+cp -r ~/jetbot/notebooks ~/Notebooks
+
+
 # Download Models: https://github.com/NVIDIA-AI-IOT/jetbot/wiki/Examples
 #==================================================================================
 echo -e "\e[1;32mDownload Models\e[0m"
@@ -100,5 +129,21 @@ cd ~/Notebooks/object_following
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH" -O ssd_mobilenet_v2_coco.engine && rm -rf /tmp/cookies.txt
 
 
-# Return to home directory
-cd
+# Rebuild Docker Containers
+#==================================================================================
+echo -e "\e[1;32mRebuild and Install New Docker Containers\e[0m"
+
+# Configure the Environment Variables
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Configure the Environment Variables\e[0m"
+cd ~/jetbot/docker && source configure.sh
+
+# Build New Docker Container
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Build New Docker Container\e[0m"
+cd ~/jetbot/docker && ./build.sh
+
+# Install New Docker Container
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Install New Docker Container\e[0m"
+cd ~/jetbot/docker && ./enable.sh
