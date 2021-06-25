@@ -124,6 +124,14 @@ sudo apt-get -y autoremove
 # # resize2fs -p '/dev/mmcblk0p1' 19968000K
 # resize2fs -p '/dev/mmcblk0p1' 30720000K
 
+# Add Partition Expansion Service to Execute on Next Boot
+echo -e "\e[100mAdd Partition Expansion Service\e[0m"
+sudo chmod 644 nvresizefs.sh nvresizefs.service
+sudo cp nvresizefs.sh /etc/systemd
+sudo cp nvresizefs.service /etc/systemd/system
+sudo systemctl enable nvresizefs.service
+
+
 # Clear Terminal History/Buffer
 #==================================================================================
 # echo -e "\n\n\e[0;37mClear Bash History\e[0m"

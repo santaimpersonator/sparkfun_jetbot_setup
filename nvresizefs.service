@@ -1,0 +1,9 @@
+[Unit]
+Decription=Partition Expansion Service
+
+[Service]
+Type=service
+ExecStart=/bin/bash /etc/systemd/nvresizefs.sh
+
+[Install]
+WantedBy=multi-user.target
