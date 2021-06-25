@@ -172,7 +172,8 @@ echo -e "\e[1;33m- Install and Build jetbot_ros\e[0m"
 
 # clone the repo
 cd ~/workspace/catkin_ws/src
-git clone https://github.com/sparkfun/jetbot_ros
+# git clone https://github.com/sparkfun/jetbot_ros
+git clone -b update-hardware_scan https://github.com/sparkfun/jetbot_ros
 
 # build the package
 cd ../    # cd ~/workspace/catkin_ws
