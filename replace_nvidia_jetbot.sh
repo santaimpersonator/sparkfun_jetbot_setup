@@ -105,62 +105,68 @@ echo -e "\e[1;33m  - Clone New Jetbot Repository\e[0m"
 cd && git clone https://github.com/santaimpersonator/jetbot.git
 # git clone https://github.com/NVIDIA-AI-IOT/jetbot
 
-# Install New jetbot Python Module
-#----------------------------------------------------------------------------------
-echo -e "\e[1;33m  - Install New jetbot Python Module\e[0m"
-cd ~/jetbot && sudo python3 setup.py install 
-
-# Install New jetbot Services
-#----------------------------------------------------------------------------------
-echo -e "\e[1;33m  - Install New jetbot Services\e[0m"
-cd jetbot/utils
-python3 create_stats_service.py
-sudo mv jetbot_stats.service /etc/systemd/system/jetbot_stats.service
-sudo systemctl enable jetbot_stats
-sudo systemctl start jetbot_stats
-python3 create_jupyter_service.py
-sudo mv jetbot_jupyter.service /etc/systemd/system/jetbot_jupyter.service
-sudo systemctl enable jetbot_jupyter
-sudo systemctl start jetbot_jupyter
 
 # Copy JetBot notebooks to home Directory
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Copy New JetBot Notebooks\e[0m"
 cp -r ~/jetbot/notebooks ~/Notebooks
 
-
 # Download Models: https://github.com/NVIDIA-AI-IOT/jetbot/wiki/Examples
 #==================================================================================
-echo -e "\e[1;32mDownload Models\e[0m"
+echo -e "\e[1;32m  - Download Models\e[0m"
 
 # Download Pre-Trained Model for Collision Avoidance Example
 #----------------------------------------------------------------------------------
-echo -e "\e[1;33m- Collision Avoidance Model\e[0m"
+echo -e "\e[1;33m     - Collision Avoidance Model\e[0m"
 cd ~/Notebooks/collision_avoidance
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW" -O best_model.pth && rm -rf /tmp/cookies.txt
 
 # Download Object Detection Model for Object Following Example
 #----------------------------------------------------------------------------------
-echo -e "\e[1;33m- Object Detection Model\e[0m"
+echo -e "\e[1;33m    - Object Detection Model\e[0m"
 cd ~/Notebooks/object_following
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH" -O ssd_mobilenet_v2_coco.engine && rm -rf /tmp/cookies.txt
 
 
-# Rebuild Docker Containers
-#==================================================================================
-echo -e "\e[1;32mRebuild and Install New Docker Containers\e[0m"
+# For Jetpack +4.5: Build and Enable Docker Contatiners
+if [ $JETSON_JETPACK \> 4.4 ]
+then
+    # Rebuild Docker Containers
+    #==================================================================================
+    echo -e "\e[1;32m  - Rebuild and Install New Docker Containers\e[0m"
 
-# Configure the Environment Variables
-#----------------------------------------------------------------------------------
-echo -e "\e[1;33m  - Configure the Environment Variables\e[0m"
-cd ~/jetbot/docker && source configure.sh
+    # Configure the Environment Variables
+    #----------------------------------------------------------------------------------
+    echo -e "\e[1;33m    - Configure the Environment Variables\e[0m"
+    cd ~/jetbot/docker && source configure.sh
 
-# Build New Docker Container
-#----------------------------------------------------------------------------------
-echo -e "\e[1;33m  - Build New Docker Container\e[0m"
-cd ~/jetbot/docker && ./build.sh
+    # Build New Docker Container
+    #----------------------------------------------------------------------------------
+    echo -e "\e[1;33m    - Build New Docker Container\e[0m"
+    cd ~/jetbot/docker && ./build.sh
 
-# Install New Docker Container
-#----------------------------------------------------------------------------------
-echo -e "\e[1;33m  - Install New Docker Container\e[0m"
-cd ~/jetbot/docker && ./enable.sh
+    # Install New Docker Container
+    #----------------------------------------------------------------------------------
+    echo -e "\e[1;33m    - Install New Docker Container\e[0m"
+    cd ~/jetbot/docker && ./enable.sh
+
+# For Previous Jetpack Releases: Install jetbot Python Package and Create Services
+else
+    # Install New jetbot Python Module
+    #----------------------------------------------------------------------------------
+    echo -e "\e[1;32m  - Install New jetbot Python Module\e[0m"
+    cd ~/jetbot && sudo python3 setup.py install 
+
+    # Install New jetbot Services
+    #----------------------------------------------------------------------------------
+    echo -e "\e[1;32m  - Install New jetbot Services\e[0m"
+    cd jetbot/utils
+    python3 create_stats_service.py
+    sudo mv jetbot_stats.service /etc/systemd/system/jetbot_stats.service
+    sudo systemctl enable jetbot_stats
+    sudo systemctl start jetbot_stats
+    python3 create_jupyter_service.py
+    sudo mv jetbot_jupyter.service /etc/systemd/system/jetbot_jupyter.service
+    sudo systemctl enable jetbot_jupyter
+    sudo systemctl start jetbot_jupyter
+fi
