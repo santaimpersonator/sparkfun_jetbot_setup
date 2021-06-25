@@ -47,7 +47,7 @@ chmod +x install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh in
 
 # Expand Partition to Fill SD Cards Space
 echo -e "\e[100mRun Partition Expansion Script\e[0m"
-sudo bash nvresizefs.sh
+sudo bash expand_partition.sh
 
 # Download Package Information
 echo -e "\e[1;33m- Download Package Information\e[0m"

@@ -36,8 +36,8 @@
 
 # Remove Carriage Returns and Add Permissions
 echo -e "\e[100mRun Partition Expansion Script\e[0m"
-sed -i 's/\r$//' nvresizefs.sh
-sudo bash nvresizefs.sh
+sed -i 's/\r$//' expand_partition.sh
+sudo bash expand_partition.sh
 
 # Install pip3
 echo -e "\e[100mInstall pip3 htop nano ipython3\e[0m"
