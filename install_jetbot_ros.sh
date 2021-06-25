@@ -109,7 +109,7 @@ sudo sh -c 'echo "source ~/workspace/catkin_ws/devel/setup.bash" >> ~/.bashrc'
 
 
 echo $ROS_PACKAGE_PATH 
-/home/nvidia/workspace/catkin_ws/src:/opt/ros/melodic/share
+# /home/nvidia/workspace/catkin_ws/src:/opt/ros/melodic/share
 
 
 
@@ -156,7 +156,7 @@ catkin_make
 
 # confirm that the package can be found
 rospack find ros_deep_learning
-/home/nvidia/workspace/catkin_ws/src/ros_deep_learning
+# /home/nvidia/workspace/catkin_ws/src/ros_deep_learning
 
 
 
