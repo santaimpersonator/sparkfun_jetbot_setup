@@ -57,8 +57,10 @@ sudo apt-get update
 sudo apt-get install -y ros-melodic-ros-base
 
 # add ROS paths to environment
-sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
-
+# sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+source /opt/ros/melodic/setup.bash
 
 
 ######### Close and restart the terminal.
@@ -67,18 +69,20 @@ sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
 #----------------------------------------------------------------------------------
 # These Python libraries from Adafruit support the TB6612/PCA9685 motor drivers and the SSD1306 debug OLED:
 
-# pip should be installed
-sudo apt-get install python3-pip
+# pip should be installed (Python2!)
+sudo apt-get install python-pip
 
 # Grant your user access to the i2c bus:
 sudo usermod -aG i2c $USER
 
 # install Adafruit libraries
-sudo pip3 install -U Adafruit-MotorHAT
-sudo pip3 install -U Adafruit-SSD1306
+sudo pip install -U Adafruit-MotorHAT
+sudo pip install -U Adafruit-SSD1306
 
 # Install SparkFun Qwiic Package
-sudo pip3 install -U sparkfun-qwiic
+sudo pip install -U sparkfun-qwiic
+
+
 
 
 ################# Reboot the system for the changes to take effect.
@@ -151,6 +155,7 @@ git clone https://github.com/dusty-nv/ros_deep_learning
 
 # make ros_deep_learning
 cd ../ && catkin_make
+source devel/setup.bash
 
 # confirm that the package can be found
 rospack find ros_deep_learning
