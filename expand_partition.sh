@@ -33,11 +33,8 @@ set -e
 
 function cleanup()
 {
-	# Delete nvresizefs.sh, nvresizefs.service and its symlink
-	# rm "/etc/systemd/nvresizefs.sh"
-	# rm "/etc/systemd/system/nvresizefs.service"
-	# rm "/etc/systemd/system/multi-user.target.wants/nvresizefs.service"
-	rm "nvresizefs.sh"
+	# Delete expand_partition.sh
+	rm "expand_partition.sh"
 }
 
 #if [ -e "/proc/device-tree/compatible" ]; then
