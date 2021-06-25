@@ -129,7 +129,7 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 
 
 # For Jetpack +4.5: Build and Enable Docker Contatiners
-if [ $JETSON_JETPACK \> 4.4 ]
+if [ -z "$JETSON_JETPACK"] || [ $JETSON_JETPACK > 4.4 ]
 then
     # Rebuild Docker Containers
     #==================================================================================
