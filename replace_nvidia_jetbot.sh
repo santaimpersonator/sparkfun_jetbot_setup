@@ -148,7 +148,7 @@ then
     # Install New Docker Container
     #----------------------------------------------------------------------------------
     echo -e "\e[1;33m    - Install New Docker Container\e[0m"
-    cd ~/jetbot/docker && ./enable.sh
+    cd ~/jetbot/docker && ./enable.sh $HOME
 
 # For Previous Jetpack Releases: Install jetbot Python Package and Create Services
 else
