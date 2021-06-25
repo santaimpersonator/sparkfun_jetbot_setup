@@ -176,4 +176,4 @@ catkin_make
 
 # confirm that jetbot_ros package can be found
 rospack find jetbot_ros
-/home/nvidia/workspace/catkin_ws/src/jetbot_ros
+#/home/nvidia/workspace/catkin_ws/src/jetbot_ros
