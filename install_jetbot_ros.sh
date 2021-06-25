@@ -92,8 +92,7 @@ echo -e "\e[1;33m- Create a ROS Catkin Workspace\e[0m"
 
 # create the catkin workspace
 mkdir -p ~/workspace/catkin_ws/src
-cd ~/workspace/catkin_ws
-catkin_make
+cd ~/workspace/catkin_ws && catkin_make
 
 # add catkin_ws path to bashrc
 sudo sh -c 'echo "source ~/workspace/catkin_ws/devel/setup.bash" >> ~/.bashrc'
@@ -151,8 +150,7 @@ cd ~/workspace/catkin_ws/src
 git clone https://github.com/dusty-nv/ros_deep_learning
 
 # make ros_deep_learning
-cd ../    # cd ~/workspace/catkin_ws
-catkin_make
+cd ../ && catkin_make
 
 # confirm that the package can be found
 rospack find ros_deep_learning
@@ -171,8 +169,7 @@ git clone https://github.com/sparkfun/jetbot_ros
 # git clone -b update-hardware_scan https://github.com/sparkfun/jetbot_ros
 
 # build the package
-cd ../    # cd ~/workspace/catkin_ws
-catkin_make
+cd ../ && catkin_make
 
 # confirm that jetbot_ros package can be found
 rospack find jetbot_ros
