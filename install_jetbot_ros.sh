@@ -63,30 +63,25 @@ sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
 
 ######### Close and restart the terminal.
 
-
-
 # Install Adafruit Libraries
 #----------------------------------------------------------------------------------
 # These Python libraries from Adafruit support the TB6612/PCA9685 motor drivers and the SSD1306 debug OLED:
 
-# Already done in jetbot configuration script
+# pip should be installed
+sudo apt-get install python3-pip
 
-# # pip should be installed
-# sudo apt-get install python-pip
+# Grant your user access to the i2c bus:
+sudo usermod -aG i2c $USER
 
-# # install Adafruit libraries
-# pip install Adafruit-MotorHAT
-# pip install Adafruit-SSD1306
+# install Adafruit libraries
+sudo pip3 install -U Adafruit-MotorHAT
+sudo pip3 install -U Adafruit-SSD1306
 
-# # Grant your user access to the i2c bus:
-# sudo usermod -aG i2c $USER
-
-
+# Install SparkFun Qwiic Package
+sudo pip3 install -U sparkfun-qwiic
 
 
 ################# Reboot the system for the changes to take effect.
-
-
 
 
 # Create catkin workspace
