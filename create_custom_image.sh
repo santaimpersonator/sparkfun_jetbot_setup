@@ -43,7 +43,8 @@ sed -i 's/\r$//' nvresizefs.sh
 sed -i 's/\r$//' install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
 
 echo -e "\e[1;33m- Adding File Permissions\e[0m"
-chmod +x install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
+# chmod +x install_edimax_driver.sh install_aws_greengrass.sh install_jetbot.sh install_jetbot_ros.sh
+chmod +x * # all files
 
 # Expand Partition to Fill SD Cards Space
 echo -e "\e[100mRun Partition Expansion Script\e[0m"

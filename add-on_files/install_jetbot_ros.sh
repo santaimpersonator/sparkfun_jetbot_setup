@@ -65,22 +65,22 @@ source /opt/ros/melodic/setup.bash
 
 ######### Close and restart the terminal.
 
-# Install Adafruit Libraries
+# Install Python Packages
 #----------------------------------------------------------------------------------
-# These Python libraries from Adafruit support the TB6612/PCA9685 motor drivers and the SSD1306 debug OLED:
-
-# pip should be installed (Python2!)
-sudo apt-get install python-pip
 
 # Grant your user access to the i2c bus:
 sudo usermod -aG i2c $USER
 
-# install Adafruit libraries
-sudo pip install -U Adafruit-MotorHAT
-sudo pip install -U Adafruit-SSD1306
+# pip should be installed (Python2!)
+sudo apt-get update
+sudo apt-get install -y python-pip
+
+# Install Adafruit Python packages
+sudo python -m pip install -U Adafruit-MotorHAT
+sudo python -m pip install -U Adafruit-SSD1306
 
 # Install SparkFun Qwiic Package
-sudo pip install -U sparkfun-qwiic
+sudo python -m pip install -U sparkfun-qwiic
 
 
 
@@ -111,8 +111,8 @@ sudo sh -c 'echo "source ~/workspace/catkin_ws/devel/setup.bash" >> ~/.bashrc'
 
 
 
-echo $ROS_PACKAGE_PATH 
-# /home/nvidia/workspace/catkin_ws/src:/opt/ros/melodic/share
+# echo $ROS_PACKAGE_PATH 
+# # /home/nvidia/workspace/catkin_ws/src:/opt/ros/melodic/share
 
 
 
@@ -155,11 +155,11 @@ git clone https://github.com/dusty-nv/ros_deep_learning
 
 # make ros_deep_learning
 cd ../ && catkin_make
-source devel/setup.bash
+# source devel/setup.bash
 
-# confirm that the package can be found
-rospack find ros_deep_learning
-# /home/nvidia/workspace/catkin_ws/src/ros_deep_learning
+# # confirm that the package can be found
+# rospack find ros_deep_learning
+# # /home/nvidia/workspace/catkin_ws/src/ros_deep_learning
 
 
 
@@ -176,6 +176,9 @@ git clone https://github.com/sparkfun/jetbot_ros
 # build the package
 cd ../ && catkin_make
 
-# confirm that jetbot_ros package can be found
-rospack find jetbot_ros
-#/home/nvidia/workspace/catkin_ws/src/jetbot_ros
+# Wrap up installation
+source devel/setup.bash
+
+# # confirm that jetbot_ros package can be found
+# rospack find jetbot_ros
+# #/home/nvidia/workspace/catkin_ws/src/jetbot_ros
