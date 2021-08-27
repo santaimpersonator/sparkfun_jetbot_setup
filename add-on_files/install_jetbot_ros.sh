@@ -126,7 +126,7 @@ sudo apt-get install -y git cmake
 
 # clone the repo and submodules
 cd ~/workspace
-git clone https://github.com/dusty-nv/jetson-inference
+git clone https://github.com/dusty-nv/jetson-inference.git
 cd jetson-inference
 git submodule update --init
 
@@ -151,7 +151,7 @@ sudo apt-get install -y ros-melodic-vision-msgs ros-melodic-image-transport ros-
 
 # clone the repo
 cd ~/workspace/catkin_ws/src
-git clone https://github.com/dusty-nv/ros_deep_learning
+git clone https://github.com/dusty-nv/ros_deep_learning.git
 
 # make ros_deep_learning
 cd ../ && catkin_make
@@ -170,7 +170,7 @@ echo -e "\e[1;33m- Install and Build jetbot_ros\e[0m"
 
 # clone the repo
 cd ~/workspace/catkin_ws/src
-git clone https://github.com/sparkfun/jetbot_ros
+git clone https://github.com/sparkfun/jetbot_ros.git
 # git clone -b update-hardware_scan https://github.com/sparkfun/jetbot_ros
 
 # build the package
