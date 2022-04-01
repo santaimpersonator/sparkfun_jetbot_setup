@@ -42,14 +42,12 @@ echo -e "\e[1;32mInstall Jetbot\e[0m"
 # Clone Jetbot Repository
 #----------------------------------------------------------------------------------
 echo -e "\e[1;33m  - Clone Jetbot Repository\e[0m"
-# cd && git clone -b test_new_create_image_script https://github.com/santaimpersonator/jetbot.git
-cd && git clone https://github.com/santaimpersonator/jetbot.git
-# cd && git clone https://github.com/NVIDIA-AI-IOT/jetbot
+cd && git clone https://github.com/NVIDIA-AI-IOT/jetbot
 
 # Run configuration scripts
 cd jetbot/scripts
 echo -e "\e[1;33m- Run configuration scripts\e[0m"
-# chmox +x create-sdcard-image-from-scratch.sh configure_jetson.sh
+chmox +x create-sdcard-image-from-scratch.sh configure_jetson.sh
 
 # Run configure_jetson.sh script
 #----------------------------------------------------------------------------------

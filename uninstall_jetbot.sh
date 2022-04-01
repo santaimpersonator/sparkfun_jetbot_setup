@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Created by SparkFun Electronics June 2021
 # Author: Wes Furuya
 #  
@@ -33,31 +34,44 @@
 #==================================================================================
 #==================================================================================
 
-# Uninstall LibreOffice
+# Remove Jetbot Installation
 #==================================================================================
-echo -e "\n\n\e[0;37mUninstall LibreOffice\e[0m"
-sudo apt-get remove --purge -y libreoffice*
-sudo apt-get clean
+echo -e "\e[1;32m- Remove Jetbot Installation\e[0m"
 
-# Clear Package Information
-echo -e "\e[1;33m- Clear Package Information\e[0m"
-sudo apt-get -y autoremove
+# Disable Docker Container
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Disable Docker Container\e[0m"
+cd ~/jetbot/docker && ./disable.sh
 
-# # Resize partition (not working)
-# # resize2fs -p '<drive>' <size>
-# e2fsck -f -y -v -C 0 '/dev/mmcblk0p1'
-# # resize2fs -p '/dev/mmcblk0p1' 19968000K
-# resize2fs -p '/dev/mmcblk0p1' 30720000K
+# Delete jetbot Folder
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Delete jetbot Folder\e[0m"
+cd && sudo rm -rf jetbot
 
-# Add Partition Expansion Service to Execute on Next Boot
-sudo ./resize_files/install_partition_expansion_files.sh
-# sudo chmod 644 nvresizefs.sh nvresizefs.service
-# sudo cp nvresizefs.sh /etc/systemd
-# sudo cp nvresizefs.service /etc/systemd/system
-# sudo systemctl enable nvresizefs.service
+# Delete JetBot notebooks
+#----------------------------------------------------------------------------------
+cd && sudo rm -rf Notebooks
 
+# Uninstall jetbot Python Package
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Uninstall jetbot Python Package\e[0m"
+sudo pip3 uninstall jetbot
+pip3 uninstall jetbot
 
-# Clear Terminal History/Buffer
-#==================================================================================
-echo -e "\n\n\e[0;37mClear Bash History\e[0m"
-cd ~; history -c; history -w; sudo rm ~/.bash_history
+# Stop and Delete jetbot Services
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m  - Remove jetbot Services\e[0m"
+
+# Stop and Disable Services
+sudo systemctl stop jetbot_stats
+sudo systemctl disable jetbot_stats
+sudo systemctl stop jetbot_jupyter
+sudo systemctl disable jetbot_jupyter
+
+# Remove Files
+sudo rm -rf /etc/systemd/system/jetbot_stats.service 
+sudo rm -rf /etc/systemd/system/jetbot_jupyter.service
+
+# Reload and Reset List
+sudo systemctl daemon-reload
+sudo systemctl reset-failed

@@ -1,5 +1,6 @@
 #!/bin/bash
-# Created by SparkFun Electronics June 2021
+
+# Created by SparkFun Electronics February 2022
 # Author: Wes Furuya
 #  
 # This program is distributed in the hope that it will be useful,
@@ -33,31 +34,18 @@
 #==================================================================================
 #==================================================================================
 
-# Uninstall LibreOffice
+# Download Models: https://github.com/NVIDIA-AI-IOT/jetbot/wiki/Examples
 #==================================================================================
-echo -e "\n\n\e[0;37mUninstall LibreOffice\e[0m"
-sudo apt-get remove --purge -y libreoffice*
-sudo apt-get clean
+echo -e "\e[1;32m  - Download Models\e[0m"
 
-# Clear Package Information
-echo -e "\e[1;33m- Clear Package Information\e[0m"
-sudo apt-get -y autoremove
+# Download Pre-Trained Model for Collision Avoidance Example
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m     - Collision Avoidance Model\e[0m"
+cd ~/Notebooks/collision_avoidance
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1UsRax8bR3R-e-0-80KfH2zAt-IyRPtnW" -O best_model.pth && rm -rf /tmp/cookies.txt
 
-# # Resize partition (not working)
-# # resize2fs -p '<drive>' <size>
-# e2fsck -f -y -v -C 0 '/dev/mmcblk0p1'
-# # resize2fs -p '/dev/mmcblk0p1' 19968000K
-# resize2fs -p '/dev/mmcblk0p1' 30720000K
-
-# Add Partition Expansion Service to Execute on Next Boot
-sudo ./resize_files/install_partition_expansion_files.sh
-# sudo chmod 644 nvresizefs.sh nvresizefs.service
-# sudo cp nvresizefs.sh /etc/systemd
-# sudo cp nvresizefs.service /etc/systemd/system
-# sudo systemctl enable nvresizefs.service
-
-
-# Clear Terminal History/Buffer
-#==================================================================================
-echo -e "\n\n\e[0;37mClear Bash History\e[0m"
-cd ~; history -c; history -w; sudo rm ~/.bash_history
+# Download Object Detection Model for Object Following Example
+#----------------------------------------------------------------------------------
+echo -e "\e[1;33m    - Object Detection Model\e[0m"
+cd ~/Notebooks/object_following
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KjlDMRD8uhgQmQK-nC2CZGHFTbq4qQQH" -O ssd_mobilenet_v2_coco.engine && rm -rf /tmp/cookies.txt
